@@ -17,13 +17,13 @@ function IconsHeader() {
         <Image
           src="/icons/celular.png"
           alt="Meu ícone"
-          width={35}
-          height={45}
+          width={55}
+          height={25}
         />
     
       </Grid>
       <Grid item>
-      <Typography color="textPrimary" style={{ fontSize: '16px', fontWeight:"bold" }}>
+      <Typography color="textPrimary" style={{ fontSize: '14px', fontWeight:"bold" }}>
           Nossas redes sociais!
         </Typography>
       </Grid>
@@ -32,15 +32,15 @@ function IconsHeader() {
         <Image
           src="/icons/pagamento-com-cartao-de-credito.png"
           alt="Meu ícone"
-          width={35}
-          height={45}
+          width={55}
+          height={25}
         />
        
       </Grid>
 
       <Grid item>
       
-        <Typography color="textPrimary" style={{ fontSize: '16px',  fontWeight:"bold", margin: '1px' }}>
+        <Typography color="textPrimary" style={{ fontSize: '14px',  fontWeight:"bold", margin: '1px' }}>
           Faça nosso cartão!
         </Typography>
       </Grid>

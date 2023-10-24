@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Sidebar from './components/SiderBar/sidebar';
 import Header from './components/Header/header';
 import IconsHeader from './components/IconsHeader/iconsheader';
+import SearchBar from './components/SearchBar/searchbar';
 
 
 const HomePage = () => {
@@ -20,6 +21,8 @@ const HomePage = () => {
       <Header />
 
       <IconsHeader />
+
+      <SearchBar />
 
 
       <main>
