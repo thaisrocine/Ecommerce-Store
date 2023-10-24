@@ -1,8 +1,9 @@
 "use client"; 
 
 import React, { useState } from 'react';
-import Sidebar from '../app/components/sidebar';
-import Header from './components/header';
+import Sidebar from './components/SiderBar/sidebar';
+import Header from './components/Header/header';
+import IconsHeader from './components/IconsHeader/iconsheader';
 
 
 const HomePage = () => {
@@ -14,7 +15,11 @@ const HomePage = () => {
 
   return (
     <div>
+
+
       <Header />
+
+      <IconsHeader />
 
 
       <main>
