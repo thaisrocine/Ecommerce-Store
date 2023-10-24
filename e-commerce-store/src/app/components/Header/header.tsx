@@ -25,10 +25,8 @@ const Header = () => {
                     <Typography variant="h6" style={{ flex: 1, color: '#ffffff', fontWeight: 'bold' }}>
                         E-COMMERCE STORE
                     </Typography>
-
                     <nav>
                        
-
                     </nav>
                 </Toolbar>
             </AppBar>

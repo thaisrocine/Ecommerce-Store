@@ -50,9 +50,9 @@ function SearchBar() {
           <InputBase sx={{ flex: 1 }} placeholder="Digite algo para procurar" />
         </SearchContainer>
         <IconContainer>
-          <Image src="/icons/sacola-de-compras.png" alt="Meu ícone" width={20} height={20} />
-          <Image src="/icons/pessoa.png" alt="Meu ícone" width={20} height={20} />
-          <Image src="/icons/coracao.png" alt="Meu ícone" width={20} height={20} />
+          <Image src="/icons/sacola-de-compras.png" alt="Meu ícone" width={20} height={30} />
+          <Image src="/icons/pessoa.png" alt="Meu ícone" width={20} height={30} />
+          <Image src="/icons/coracao.png" alt="Meu ícone" width={20} height={30} />
         </IconContainer>
       </CardContainer>
     </div>

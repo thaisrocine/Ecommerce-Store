@@ -18,7 +18,7 @@ function IconsHeader() {
           src="/icons/celular.png"
           alt="Meu ícone"
           width={55}
-          height={25}
+          height={35}
         />
     
       </Grid>
@@ -33,7 +33,7 @@ function IconsHeader() {
           src="/icons/pagamento-com-cartao-de-credito.png"
           alt="Meu ícone"
           width={55}
-          height={25}
+          height={35}
         />
        
       </Grid>
