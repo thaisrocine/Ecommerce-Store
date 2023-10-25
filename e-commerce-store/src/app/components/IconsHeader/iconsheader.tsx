@@ -17,7 +17,7 @@ function IconsHeader() {
         <Image
           src="/icons/celular.png"
           alt="Meu ícone"
-          width={55}
+          width={57}
           height={35}
         />
     
