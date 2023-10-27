@@ -24,12 +24,19 @@ const categories = [
   'PARA CASA',
 ];
 
+const CategorySpan = styled('span')({
+  cursor: 'pointer',
+  '&:hover': {
+    color: '#D5CF98', // Cor que desejar ao passar o mouse
+  },
+});
+
 function CategoryHeader() {
   return (
     <HeaderCard>
       <CardContent>
         {categories.map((category, index) => (
-          <span key={index}>{category} </span>
+          <CategorySpan key={index}>{category} </CategorySpan>
         ))}
       </CardContent>
     </HeaderCard>
