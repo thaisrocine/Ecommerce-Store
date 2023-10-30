@@ -7,7 +7,7 @@ import IconsHeader from '@/app/components/IconsHeader/iconsheader';
 import SearchBar from '@/app/components/SearchBar/searchbar';
 
 
-const Crianca = () => {
+const AcessoriosERelogios = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -41,4 +41,4 @@ const Crianca = () => {
 };
 
 
-export default Crianca;
+export default AcessoriosERelogios;

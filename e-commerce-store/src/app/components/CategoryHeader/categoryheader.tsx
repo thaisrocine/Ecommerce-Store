@@ -2,6 +2,9 @@ import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { styled } from '@mui/material/styles';
+import Link from 'next/link';
+
+
 
 const HeaderCard = styled(Card)({
   backgroundColor: '#FFFFFF',
@@ -13,21 +16,20 @@ const HeaderCard = styled(Card)({
 });
 
 const categories = [
-  'MASCULINO |',
-  'FEMININO |',
-  'CALÇAS |',
-  'VESTIDOS |',
-  'CRIANÇAS |',
-  'TENDÊNCIA DOS VERÃO |',
-  'ACESSÓRIOS E RELÓGIOS |',
-  'PERFUME |',
-  'PARA CASA',
+  'feminino',
+  'masculino', 
+  'crianca',
+  'verao',
+  'acessorios',
+  'paracasa', 
+  'perfume'
+ 
 ];
 
 const CategorySpan = styled('span')({
   cursor: 'pointer',
   '&:hover': {
-    color: '#D5CF98', // Cor que desejar ao passar o mouse
+    color: '#D5CF98',
   },
 });
 
@@ -36,7 +38,11 @@ function CategoryHeader() {
     <HeaderCard>
       <CardContent>
         {categories.map((category, index) => (
-          <CategorySpan key={index}>{category} </CategorySpan>
+           <Link href={`http://localhost:3000/pages/${category}`} key={index}>
+           <CategorySpan> {category.toUpperCase()} |</CategorySpan>
+         </Link>
+
+      
         ))}
       </CardContent>
     </HeaderCard>
