@@ -1,0 +1,1189 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Feminina",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Camiseta Básica Branca",
+                "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "variacoes": [
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_branca1.jpg", "caminho_da_foto_branca2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Camiseta Básica Preta",
+                "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "variacoes": [
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_preto1.jpg", "caminho_da_foto_preto2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Camiseta Básica Rosa",
+                "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "variacoes": [
+                  {
+                    "cor": "Rosa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_rosa1.jpg", "caminho_da_foto_rosa2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Camiseta Estampada Vermelha",
+                "descricao": "Uma camiseta estampada vermelha cheia de estilo",
+                "variacoes": [
+                  {
+                    "cor": "Vermelho",
+                    "tamanhos": ["Médio", "Grande"],
+                    "tipo": "Poliéster",
+                    "fotos": ["caminho_da_foto_vermelha1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Camiseta Estampada Verde",
+                "descricao": "Uma camiseta estampada verde cheia de estilo",
+                "variacoes": [
+                  {
+                    "cor": "Verde",
+                    "tamanhos": ["Médio", "Grande"],
+                    "tipo": "Poliéster",
+                    "fotos": ["caminho_da_foto_verde1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Vestido Preto",
+                "descricao": "Um vestido preto elegante para ocasiões especiais",
+                "variacoes": [
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_vestido_preto1.jpg", "caminho_da_foto_vestido_preto2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Saia Jeans",
+                "descricao": "Uma saia jeans moderna para um visual casual",
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Médio", "Grande"],
+                    "tipo": "Jeans",
+                    "fotos": ["caminho_da_foto_saia_jeans1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Blusa Branca",
+                "descricao": "Uma blusa branca clássica para combinar com qualquer look",
+                "variacoes": [
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_blusa_branca1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Calça Legging Preta",
+                "descricao": "Uma calça legging preta confortável para atividades físicas",
+                "variacoes": [
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Elastano",
+                    "fotos": ["caminho_da_foto_legging_preta1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Blusa Estampada Floral",
+                "descricao": "Uma blusa estampada com padrão floral para um toque de primavera",
+                "variacoes": [
+                  {
+                    "cor": "Floral",
+                    "tamanhos": ["Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_blusa_floral1.jpg"]
+                  }
+                ]
+              }
+            ]
+          },
+        {
+            "id": 2,
+            "nome": "Masculina",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Camiseta Masculina",
+                "descricao": "Uma camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_azul1.jpg", "caminho_da_foto_azul2.jpg"]
+                  },
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_preto1.jpg", "caminho_da_foto_preto2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Camiseta Masculina 2",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_branco1.jpg", "caminho_da_foto_branco2.jpg"]
+                  },
+                  {
+                    "cor": "Cinza",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_cinza1.jpg", "caminho_da_foto_cinza2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Camiseta Masculina 3",
+                "descricao": "Mais uma camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Verde",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_verde1.jpg", "caminho_da_foto_verde2.jpg"]
+                  },
+                  {
+                    "cor": "Vermelho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_vermelho1.jpg", "caminho_da_foto_vermelho2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Camiseta Masculina 4",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Laranja",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_laranja1.jpg", "caminho_da_foto_laranja2.jpg"]
+                  },
+                  {
+                    "cor": "Roxo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_roxo1.jpg", "caminho_da_foto_roxo2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Camiseta Masculina 5",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Amarelo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_amarelo1.jpg", "caminho_da_foto_amarelo2.jpg"]
+                  },
+                  {
+                    "cor": "Bordô",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_bordo1.jpg", "caminho_da_foto_bordo2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Camiseta Masculina 6",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Marrom",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_marrom1.jpg", "caminho_da_foto_marrom2.jpg"]
+                  },
+                  {
+                    "cor": "Rosa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_rosa1.jpg", "caminho_da_foto_rosa2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Camiseta Masculina 7",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Turquesa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_turquesa1.jpg", "caminho_da_foto_turquesa2.jpg"]
+                  },
+                  {
+                    "cor": "Prata",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_prata1.jpg", "caminho_da_foto_prata2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Camiseta Masculina 8",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Dourado",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_dourado1.jpg", "caminho_da_foto_dourado2.jpg"]
+                  },
+                  {
+                    "cor": "Cobre",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_cobre1.jpg", "caminho_da_foto_cobre2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Camiseta Masculina 9",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Violeta",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_violeta1.jpg", "caminho_da_foto_violeta2.jpg"]
+                  },
+                  {
+                    "cor": "Bege",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_bege1.jpg", "caminho_da_foto_bege2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Camiseta Masculina 10",
+                "descricao": "Outra camiseta masculina básica",
+                "variacoes": [
+                  {
+                    "cor": "Lilás",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_lilas1.jpg", "caminho_da_foto_lilas2.jpg"]
+                  },
+                  {
+                    "cor": "Prateado",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_prateado1.jpg", "caminho_da_foto_prateado2.jpg"]
+                  }
+                ]
+              }
+            ]
+          }
+          ,
+          {
+            "id": 3,
+            "nome": "Criança",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Camiseta Infantil",
+                "descricao": "Uma camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Rosa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_rosa_infantil1.jpg", "caminho_da_foto_rosa_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_azul_infantil1.jpg", "caminho_da_foto_azul_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Camiseta Infantil 2",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Verde",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_verde_infantil1.jpg", "caminho_da_foto_verde_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Amarelo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_amarelo_infantil1.jpg", "caminho_da_foto_amarelo_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Camiseta Infantil 3",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Vermelho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_vermelho_infantil1.jpg", "caminho_da_foto_vermelho_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Lilás",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_lilas_infantil1.jpg", "caminho_da_foto_lilas_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Camiseta Infantil 4",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Azul Marinho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_azul_marinho_infantil1.jpg", "caminho_da_foto_azul_marinho_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Cinza",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_cinza_infantil1.jpg", "caminho_da_foto_cinza_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Camiseta Infantil 5",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Verde Limão",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_verde_limao_infantil1.jpg", "caminho_da_foto_verde_limao_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Roxo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_roxo_infantil1.jpg", "caminho_da_foto_roxo_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Camiseta Infantil 6",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Amarelo Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_amarelo_claro_infantil1.jpg", "caminho_da_foto_amarelo_claro_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_branco_infantil1.jpg", "caminho_da_foto_branco_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Camiseta Infantil 7",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Laranja",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_laranja_infantil1.jpg", "caminho_da_foto_laranja_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Rosa Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_rosa_claro_infantil1.jpg", "caminho_da_foto_rosa_claro_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Camiseta Infantil 8",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Verde Água",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_verde_agua_infantil1.jpg", "caminho_da_foto_verde_agua_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Amarelo Ouro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_amarelo_ouro_infantil1.jpg", "caminho_da_foto_amarelo_ouro_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Camiseta Infantil 9",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Roxo Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_roxo_claro_infantil1.jpg", "caminho_da_foto_roxo_claro_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Turquesa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_turquesa_infantil1.jpg", "caminho_da_foto_turquesa_infantil2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Camiseta Infantil 10",
+                "descricao": "Outra camiseta infantil básica",
+                "variacoes": [
+                  {
+                    "cor": "Lilás Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_lilas_claro_infantil1.jpg", "caminho_da_foto_lilas_claro_infantil2.jpg"]
+                  },
+                  {
+                    "cor": "Azul Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["caminho_da_foto_azul_claro_infantil1.jpg", "caminho_da_foto_azul_claro_infantil2.jpg"]
+                  }
+                ]
+              }
+            ]
+          }
+          ,
+          {
+            "id": 4,
+            "nome": "Verão",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Shorts de Praia",
+                "descricao": "Shorts confortáveis para o verão",
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_azul_shorts1.jpg", "caminho_da_foto_azul_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Verde",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_verde_shorts1.jpg", "caminho_da_foto_verde_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Shorts de Praia 2",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Vermelho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_vermelho_shorts1.jpg", "caminho_da_foto_vermelho_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Amarelo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_amarelo_shorts1.jpg", "caminho_da_foto_amarelo_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Shorts de Praia 3",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Rosa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_rosa_shorts1.jpg", "caminho_da_foto_rosa_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Laranja",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_laranja_shorts1.jpg", "caminho_da_foto_laranja_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Shorts de Praia 4",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Roxo",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_roxo_shorts1.jpg", "caminho_da_foto_roxo_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Verde Limão",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_verde_limao_shorts1.jpg", "caminho_da_foto_verde_limao_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Shorts de Praia 5",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Azul Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_azul_claro_shorts1.jpg", "caminho_da_foto_azul_claro_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Cinza",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_cinza_shorts1.jpg", "caminho_da_foto_cinza_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Shorts de Praia 6",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Amarelo Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_amarelo_claro_shorts1.jpg", "caminho_da_foto_amarelo_claro_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Violeta",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_violeta_shorts1.jpg", "caminho_da_foto_violeta_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Shorts de Praia 7",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Turquesa",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_turquesa_shorts1.jpg", "caminho_da_foto_turquesa_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Vermelho Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_vermelho_claro_shorts1.jpg", "caminho_da_foto_vermelho_claro_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Shorts de Praia 8",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Rosa Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_rosa_claro_shorts1.jpg", "caminho_da_foto_rosa_claro_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Amarelo Ouro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_amarelo_ouro_shorts1.jpg", "caminho_da_foto_amarelo_ouro_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Shorts de Praia 9",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Verde Água",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_verde_agua_shorts1.jpg", "caminho_da_foto_verde_agua_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Laranja",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_laranja_shorts1.jpg", "caminho_da_foto_laranja_shorts2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Shorts de Praia 10",
+                "descricao": "Outros shorts de praia confortáveis",
+                "variacoes": [
+                  {
+                    "cor": "Roxo Claro",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_roxo_claro_shorts1.jpg", "caminho_da_foto_roxo_claro_shorts2.jpg"]
+                  },
+                  {
+                    "cor": "Azul Marinho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Poliamida",
+                    "fotos": ["caminho_da_foto_azul_marinho_shorts1.jpg", "caminho_da_foto_azul_marinho_shorts2.jpg"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "nome": "Acessórios",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Colar de Prata",
+                "descricao": "Um colar elegante de prata",
+                "variacoes": [
+                  {
+                    "cor": "Prata",
+                    "tamanhos": ["Único"],
+                    "material": "Prata",
+                    "fotos": ["caminho_da_foto_colar_prata1.jpg"]
+                  },
+                  {
+                    "cor": "Dourado",
+                    "tamanhos": ["Único"],
+                    "material": "Dourado",
+                    "fotos": ["caminho_da_foto_colar_dourado1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Brinco de Gala",
+                "descricao": "Um brinco elegante de prata",
+                "variacoes": [
+                  {
+                    "cor": "Prata",
+                    "tamanhos": ["Único"],
+                    "material": "Prata",
+                    "fotos": ["caminho_da_foto_brinco_prata1.jpg"]
+                  },
+                  {
+                    "cor": "Dourado",
+                    "tamanhos": ["Único"],
+                    "material": "Dourado",
+                    "fotos": ["caminho_da_foto_brinco_dourado1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Pulseira de Pérolas",
+                "descricao": "Uma pulseira elegante de pérolas",
+                "variacoes": [
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Único"],
+                    "material": "Pérolas",
+                    "fotos": ["caminho_da_foto_pulseira_perolas1.jpg"]
+                  },
+                  {
+                    "cor": "Rosa",
+                    "tamanhos": ["Único"],
+                    "material": "Pérolas",
+                    "fotos": ["caminho_da_foto_pulseira_perolas_rosa1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Anel de Diamante",
+                "descricao": "Um anel elegante de diamante",
+                "variacoes": [
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Diamante",
+                    "fotos": ["caminho_da_foto_anel_diamante1.jpg"]
+                  },
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Diamante",
+                    "fotos": ["caminho_da_foto_anel_diamante_azul1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Óculos de Sol",
+                "descricao": "Óculos de sol elegantes para o verão",
+                "variacoes": [
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Único"],
+                    "material": "Plástico",
+                    "fotos": ["caminho_da_foto_oculos_sol_preto1.jpg"]
+                  },
+                  {
+                    "cor": "Marrom",
+                    "tamanhos": ["Único"],
+                    "material": "Plástico",
+                    "fotos": ["caminho_da_foto_oculos_sol_marrom1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Relógio de Pulso",
+                "descricao": "Um relógio elegante para uso diário",
+                "variacoes": [
+                  {
+                    "cor": "Prata",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Aço Inoxidável",
+                    "fotos": ["caminho_da_foto_relogio_prata1.jpg"]
+                  },
+                  {
+                    "cor": "Dourado",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Aço Inoxidável",
+                    "fotos": ["caminho_da_foto_relogio_dourado1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Bolsa de Couro",
+                "descricao": "Uma bolsa elegante de couro",
+                "variacoes": [
+                  {
+                    "cor": "Marrom",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Couro",
+                    "fotos": ["caminho_da_foto_bolsa_marrom1.jpg"]
+                  },
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Couro",
+                    "fotos": ["caminho_da_foto_bolsa_preto1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Lenço de Seda",
+                "descricao": "Um lenço de seda elegante para diversas ocasiões",
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Seda",
+                    "fotos": ["caminho_da_foto_lenco_seda_azul1.jpg"]
+                  },
+                  {
+                    "cor": "Vermelho",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Seda",
+                    "fotos": ["caminho_da_foto_lenco_seda_vermelho1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Chapéu de Palha",
+                "descricao": "Um chapéu de palha elegante para o verão",
+                "variacoes": [
+                  {
+                    "cor": "Natural",
+                    "tamanhos": ["Único"],
+                    "material": "Palha",
+                    "fotos": ["caminho_da_foto_chapeu_palha1.jpg"]
+                  },
+                  {
+                    "cor": "Branco",
+                    "tamanhos": ["Único"],
+                    "material": "Palha",
+                    "fotos": ["caminho_da_foto_chapeu_palha_branco1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Cinto de Couro",
+                "descricao": "Um cinto elegante de couro para combinar com seu estilo",
+                "variacoes": [
+                  {
+                    "cor": "Marrom",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Couro",
+                    "fotos": ["caminho_da_foto_cinto_couros1.jpg"]
+                  },
+                  {
+                    "cor": "Preto",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "material": "Couro",
+                    "fotos": ["caminho_da_foto_cinto_couros_preto1.jpg"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "nome": "Perfume",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Perfume Floral",
+                "descricao": "Um perfume floral suave",
+                "variacoes": [
+                  {
+                    "fragrancia": "Floral",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_floral1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Perfume Cítrico",
+                "descricao": "Um perfume cítrico refrescante",
+                "variacoes": [
+                  {
+                    "fragrancia": "Cítrico",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_citrico1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Perfume Amadeirado",
+                "descricao": "Um perfume amadeirado sofisticado",
+                "variacoes": [
+                  {
+                    "fragrancia": "Amadeirado",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_amadeirado1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Perfume Floral 2",
+                "descricao": "Outro perfume floral suave",
+                "variacoes": [
+                  {
+                    "fragrancia": "Floral",
+                    "volume": "100ml",
+                    "fotos": ["caminho_da_foto_perfume_floral2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Perfume Oriental",
+                "descricao": "Um perfume oriental misterioso",
+                "variacoes": [
+                  {
+                    "fragrancia": "Oriental",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_oriental1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Perfume Fresco",
+                "descricao": "Um perfume fresco e revigorante",
+                "variacoes": [
+                  {
+                    "fragrancia": "Fresco",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_fresco1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Perfume Amadeirado 2",
+                "descricao": "Outro perfume amadeirado sofisticado",
+                "variacoes": [
+                  {
+                    "fragrancia": "Amadeirado",
+                    "volume": "100ml",
+                    "fotos": ["caminho_da_foto_perfume_amadeirado2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Perfume Floral 3",
+                "descricao": "Mais um perfume floral suave",
+                "variacoes": [
+                  {
+                    "fragrancia": "Floral",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_floral3.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Perfume Frutado",
+                "descricao": "Um perfume frutado e doce",
+                "variacoes": [
+                  {
+                    "fragrancia": "Frutado",
+                    "volume": "50ml",
+                    "fotos": ["caminho_da_foto_perfume_frutado1.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Perfume Cítrico 2",
+                "descricao": "Outro perfume cítrico refrescante",
+                "variacoes": [
+                  {
+                    "fragrancia": "Cítrico",
+                    "volume": "100ml",
+                    "fotos": ["caminho_da_foto_perfume_citrico2.jpg"]
+                  }
+                ]
+              }
+            ]
+          }
+          ,
+          {
+            "id": 7,
+            "nome": "Para Casa",
+            "produtos": [
+              {
+                "id": 1,
+                "nome": "Almofadas Decorativas Vermelhas",
+                "descricao": "Almofadas decorativas vermelhas para sua casa",
+                "variacoes": [
+                  {
+                    "cor": "Vermelha",
+                    "tamanho": "Grande",
+                    "material": "Algodão",
+                    "fotos": ["caminho_da_foto_almofada_vermelha1.jpg", "caminho_da_foto_almofada_vermelha2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "nome": "Kit de 4 Almofadas Decorativas Azuis",
+                "descricao": "Almofadas decorativas azuis para sua casa",
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanho": "Grande",
+                    "material": "Algodão",
+                    "fotos": ["caminho_da_foto_almofada_azul1.jpg", "caminho_da_foto_almofada_azul2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "nome": "Cortinas de Linho Brancas",
+                "descricao": "Cortinas elegantes de linho branco para sua sala",
+                "variacoes": [
+                  {
+                    "cor": "Branca",
+                    "tamanho": "Grande",
+                    "material": "Linho",
+                    "fotos": ["caminho_da_foto_cortina_branca1.jpg", "caminho_da_foto_cortina_branca2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "nome": "Cortinas de Linho Bege",
+                "descricao": "Cortinas elegantes de linho bege para sua sala",
+                "variacoes": [
+                  {
+                    "cor": "Bege",
+                    "tamanho": "Grande",
+                    "material": "Linho",
+                    "fotos": ["caminho_da_foto_cortina_bege1.jpg", "caminho_da_foto_cortina_bege2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "nome": "Tapete de Pelúcia Cinza",
+                "descricao": "Um tapete de pelúcia cinza para o conforto da sua casa",
+                "variacoes": [
+                  {
+                    "cor": "Cinza",
+                    "tamanho": "Grande",
+                    "material": "Pelúcia",
+                    "fotos": ["caminho_da_foto_tapete_cinza1.jpg", "caminho_da_foto_tapete_cinza2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "nome": "Tapete Listrado Colorido",
+                "descricao": "Um tapete listrado colorido para adicionar estilo à sua casa",
+                "variacoes": [
+                  {
+                    "cor": "Multicolorido",
+                    "tamanho": "Grande",
+                    "material": "Tecido",
+                    "fotos": ["caminho_da_foto_tapete_listrado1.jpg", "caminho_da_foto_tapete_listrado2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Luminária de Teto Moderna",
+                "descricao": "Uma luminária de teto moderna para iluminar seus espaços",
+                "variacoes": [
+                  {
+                    "cor": "Prata",
+                    "tamanho": "Médio",
+                    "material": "Metal",
+                    "fotos": ["caminho_da_foto_luminaria_prata1.jpg", "caminho_da_foto_luminaria_prata2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Mesa de Centro de Madeira",
+                "descricao": "Uma mesa de centro de madeira para sua sala de estar",
+                "variacoes": [
+                  {
+                    "cor": "Marrom",
+                    "tamanho": "Médio",
+                    "material": "Madeira",
+                    "fotos": ["caminho_da_foto_mesa_centro_marrom1.jpg", "caminho_da_foto_mesa_centro_marrom2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "nome": "Prateleira de Parede",
+                "descricao": "Uma prateleira de parede para organizar seus objetos",
+                "variacoes": [
+                  {
+                    "cor": "Branca",
+                    "tamanho": "Pequeno",
+                    "material": "MDF",
+                    "fotos": ["caminho_da_foto_prateleira_branca1.jpg", "caminho_da_foto_prateleira_branca2.jpg"]
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "nome": "Quadros Decorativos",
+                "descricao": "Quadros decorativos para personalizar suas paredes",
+                "variacoes": [
+                  {
+                    "cor": "Vários",
+                    "tamanho": "Médio",
+                    "material": "Canvas",
+                    "fotos": ["caminho_da_foto_quadros_varios1.jpg", "caminho_da_foto_quadros_varios2.jpg"]
+                  }
+                ]
+              }
+            ]
+          } 
+    ]
+}
