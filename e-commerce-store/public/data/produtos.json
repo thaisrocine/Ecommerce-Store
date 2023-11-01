@@ -1115,13 +1115,20 @@
                     "tamanho": "Grande",
                     "material": "Pelúcia",
                     "fotos": ["caminho_da_foto_tapete_cinza1.jpg", "caminho_da_foto_tapete_cinza2.jpg"]
+                  },
+                  {
+                    "cor": "Preto",
+                    "tamanho": "Grande",
+                    "material": "Pelúcia",
+                    "fotos": ["caminho_da_foto_tapete_cinza1.jpg", "caminho_da_foto_tapete_cinza2.jpg"]
                   }
+
                 ]
               },
               {
                 "id": 6,
-                "nome": "Tapete Listrado Colorido",
-                "descricao": "Um tapete listrado colorido para adicionar estilo à sua casa",
+                "nome": "Urso de pelúcia",
+                "descricao": "Urso de pelúcia para casa",
                 "variacoes": [
                   {
                     "cor": "Multicolorido",
@@ -1137,7 +1144,7 @@
                 "descricao": "Uma luminária de teto moderna para iluminar seus espaços",
                 "variacoes": [
                   {
-                    "cor": "Prata",
+                    "cor": "Branca",
                     "tamanho": "Médio",
                     "material": "Metal",
                     "fotos": ["caminho_da_foto_luminaria_prata1.jpg", "caminho_da_foto_luminaria_prata2.jpg"]
