@@ -6,7 +6,7 @@
             "produtos": [
               {
                 "id": 1,
-                "nome": "Camiseta Básica Branca",
+                "nome": "Camiseta Azul",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
                 "variacoes": [
                   {
@@ -123,7 +123,7 @@
               },
               {
                 "id": 10,
-                "nome": "Blusa Estampada Floral",
+                "nome": "Vestido Estampada Floral",
                 "descricao": "Uma blusa estampada com padrão floral para um toque de primavera",
                 "variacoes": [
                   {
@@ -161,11 +161,11 @@
               },
               {
                 "id": 2,
-                "nome": "Camiseta Masculina 2",
+                "nome": "Calça Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Branco",
+                    "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_branco1.jpg", "caminho_da_foto_branco2.jpg"]
@@ -180,74 +180,56 @@
               },
               {
                 "id": 3,
-                "nome": "Camiseta Masculina 3",
+                "nome": "Camiseta Masculina Estampada",
                 "descricao": "Mais uma camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Verde",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_verde1.jpg", "caminho_da_foto_verde2.jpg"]
-                  },
-                  {
-                    "cor": "Vermelho",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_vermelho1.jpg", "caminho_da_foto_vermelho2.jpg"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Camiseta Masculina 4",
+                "nome": "Conjunto de Bermudas",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Laranja",
+                    "cor": "Única",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_laranja1.jpg", "caminho_da_foto_laranja2.jpg"]
-                  },
-                  {
-                    "cor": "Roxo",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_roxo1.jpg", "caminho_da_foto_roxo2.jpg"]
                   }
                 ]
               },
               {
                 "id": 5,
-                "nome": "Camiseta Masculina 5",
+                "nome": "Bermuda",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Amarelo",
+                    "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_amarelo1.jpg", "caminho_da_foto_amarelo2.jpg"]
-                  },
-                  {
-                    "cor": "Bordô",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_bordo1.jpg", "caminho_da_foto_bordo2.jpg"]
                   }
                 ]
               },
               {
                 "id": 6,
-                "nome": "Camiseta Masculina 6",
+                "nome": "Regata Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Marrom",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_marrom1.jpg", "caminho_da_foto_marrom2.jpg"]
                   },
                   {
-                    "cor": "Rosa",
+                    "cor": "Preta",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_rosa1.jpg", "caminho_da_foto_rosa2.jpg"]
@@ -256,36 +238,30 @@
               },
               {
                 "id": 7,
-                "nome": "Camiseta Masculina 7",
+                "nome": "Macacão Masculino",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Turquesa",
+                    "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_turquesa1.jpg", "caminho_da_foto_turquesa2.jpg"]
-                  },
-                  {
-                    "cor": "Prata",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_prata1.jpg", "caminho_da_foto_prata2.jpg"]
                   }
                 ]
               },
               {
                 "id": 8,
-                "nome": "Camiseta Masculina 8",
+                "nome": "Camiseta Casual Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Dourado",
+                    "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_dourado1.jpg", "caminho_da_foto_dourado2.jpg"]
                   },
                   {
-                    "cor": "Cobre",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_cobre1.jpg", "caminho_da_foto_cobre2.jpg"]
@@ -294,15 +270,9 @@
               },
               {
                 "id": 9,
-                "nome": "Camiseta Masculina 9",
+                "nome": "Jaqueta Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
-                  {
-                    "cor": "Violeta",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_violeta1.jpg", "caminho_da_foto_violeta2.jpg"]
-                  },
                   {
                     "cor": "Bege",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
@@ -317,13 +287,13 @@
                 "descricao": "Outra camiseta masculina básica",
                 "variacoes": [
                   {
-                    "cor": "Lilás",
+                    "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_lilas1.jpg", "caminho_da_foto_lilas2.jpg"]
                   },
                   {
-                    "cor": "Prateado",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_prateado1.jpg", "caminho_da_foto_prateado2.jpg"]
@@ -347,18 +317,12 @@
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
                     "fotos": ["caminho_da_foto_rosa_infantil1.jpg", "caminho_da_foto_rosa_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Azul",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_azul_infantil1.jpg", "caminho_da_foto_azul_infantil2.jpg"]
                   }
                 ]
               },
               {
                 "id": 2,
-                "nome": "Camiseta Infantil 2",
+                "nome": "Vestido Infantil",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -377,7 +341,7 @@
               },
               {
                 "id": 3,
-                "nome": "Camiseta Infantil 3",
+                "nome": "Camiseta Polo Homem Aranha",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -396,7 +360,7 @@
               },
               {
                 "id": 4,
-                "nome": "Camiseta Infantil 4",
+                "nome": "Regata Infantil",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -415,7 +379,7 @@
               },
               {
                 "id": 5,
-                "nome": "Camiseta Infantil 5",
+                "nome": "Calça Jeans",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -434,7 +398,7 @@
               },
               {
                 "id": 6,
-                "nome": "Camiseta Infantil 6",
+                "nome": "Calça de algodão",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -453,7 +417,7 @@
               },
               {
                 "id": 7,
-                "nome": "Camiseta Infantil 7",
+                "nome": "Camiseta Infantil Frozen",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -472,7 +436,7 @@
               },
               {
                 "id": 8,
-                "nome": "Camiseta Infantil 8",
+                "nome": "Camiseta Infatil Rosa",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -491,7 +455,7 @@
               },
               {
                 "id": 9,
-                "nome": "Camiseta Infantil 9",
+                "nome": "Camiseta Infantil Verde",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -510,7 +474,7 @@
               },
               {
                 "id": 10,
-                "nome": "Camiseta Infantil 10",
+                "nome": "Vestido de festa criança",
                 "descricao": "Outra camiseta infantil básica",
                 "variacoes": [
                   {
@@ -540,22 +504,16 @@
                 "descricao": "Shorts confortáveis para o verão",
                 "variacoes": [
                   {
-                    "cor": "Azul",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_azul_shorts1.jpg", "caminho_da_foto_azul_shorts2.jpg"]
-                  },
-                  {
                     "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_verde_shorts1.jpg", "caminho_da_foto_verde_shorts2.jpg"]
+                    "fotos": ["caminho_da_foto_azul_shorts1.jpg", "caminho_da_foto_azul_shorts2.jpg"]
                   }
                 ]
               },
               {
                 "id": 2,
-                "nome": "Shorts de Praia 2",
+                "nome": "Bíquini de Praia",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -563,56 +521,44 @@
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
                     "fotos": ["caminho_da_foto_vermelho_shorts1.jpg", "caminho_da_foto_vermelho_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Amarelo",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_amarelo_shorts1.jpg", "caminho_da_foto_amarelo_shorts2.jpg"]
                   }
                 ]
               },
               {
                 "id": 3,
-                "nome": "Shorts de Praia 3",
+                "nome": "Maiô Estiloso",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
-                    "cor": "Rosa",
+                    "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
                     "fotos": ["caminho_da_foto_rosa_shorts1.jpg", "caminho_da_foto_rosa_shorts2.jpg"]
                   },
                   {
-                    "cor": "Laranja",
+                    "cor": "Branco",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_laranja_shorts1.jpg", "caminho_da_foto_laranja_shorts2.jpg"]
+                    "fotos": ["caminho_da_foto_rosa_shorts1.jpg", "caminho_da_foto_rosa_shorts2.jpg"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Shorts de Praia 4",
+                "nome": "Maiô Feminino Estampada",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
-                    "cor": "Roxo",
+                    "cor": "Cinza",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
                     "fotos": ["caminho_da_foto_roxo_shorts1.jpg", "caminho_da_foto_roxo_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Verde Limão",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_verde_limao_shorts1.jpg", "caminho_da_foto_verde_limao_shorts2.jpg"]
                   }
                 ]
               },
               {
                 "id": 5,
-                "nome": "Shorts de Praia 5",
+                "nome": "Bermuda de praia | Estiloso para ocasiões especiais",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -631,7 +577,7 @@
               },
               {
                 "id": 6,
-                "nome": "Shorts de Praia 6",
+                "nome": "Saída de praia rendada",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -650,7 +596,7 @@
               },
               {
                 "id": 7,
-                "nome": "Shorts de Praia 7",
+                "nome": "Saída de praia chique",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -669,7 +615,7 @@
               },
               {
                 "id": 8,
-                "nome": "Shorts de Praia 8",
+                "nome": "Camiseta UV - Proteção para o verão",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -688,7 +634,7 @@
               },
               {
                 "id": 9,
-                "nome": "Shorts de Praia 9",
+                "nome": "Óculos de praia",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
@@ -707,7 +653,7 @@
               },
               {
                 "id": 10,
-                "nome": "Shorts de Praia 10",
+                "nome": "Burkini Estiloso",
                 "descricao": "Outros shorts de praia confortáveis",
                 "variacoes": [
                   {
