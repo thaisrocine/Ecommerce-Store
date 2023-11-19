@@ -13,7 +13,7 @@ const produtos = [
         id: 1,
         nome: 'Vestido Black | Original Store and Female Group',
         preco: 'R$50,00',
-        imagem: 'src="/imagem/calcafeminina.png'
+        imagem: '"/imagem/perfume/perfume01feminino.PNG"'
     },
     {
         id: 2,
@@ -107,16 +107,16 @@ const CardProduct = () => {
                   />
                   <CardContent
                     style={{
-                      backgroundColor: 'black',
+                      backgroundColor: 'white',
                       position: 'relative',
                     }}
                     onMouseEnter={() => handleMouseEnter(produto.id)}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <Typography variant="h6" component="div" color="white">
+                    <Typography variant="h6" component="div" color="black">
                       {produto.preco}
                     </Typography>
-                    <Typography variant="body2" color="white">
+                    <Typography variant="body2" color="black">
                       {produto.nome}
                     </Typography>
                     {hoveredProduct === produto.id && (

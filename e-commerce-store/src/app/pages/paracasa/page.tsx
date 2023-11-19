@@ -5,6 +5,7 @@ import CategoryHeader from '@/app/components/CategoryHeader/categoryheader';
 import Header from '@/app/components/Header/header';
 import IconsHeader from '@/app/components/IconsHeader/iconsheader';
 import SearchBar from '@/app/components/SearchBar/searchbar';
+import CardProduct from '@/app/components/CardProduct/cardproduct';
 
 
 const ParaCasa = () => {
@@ -31,6 +32,9 @@ const ParaCasa = () => {
 
 
       <CategoryHeader />
+
+      <CardProduct /> 
+
 
      
       <main>

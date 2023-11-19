@@ -10,6 +10,7 @@ import CardProduct from './components/CardProduct/cardproduct';
 import { Typography } from '@mui/material';
 import CustomTypography from './components/CustomTypography/customtypography';
 import Card from 'material-ui/Card';
+import MeuJson from '../../public/data/produtos.json';
 
 
 const HomePage = () => {
@@ -18,6 +19,8 @@ const HomePage = () => {
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
   };
+
+  console.log(MeuJson);
 
   return (
     <div>
