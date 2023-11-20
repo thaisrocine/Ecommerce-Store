@@ -6,7 +6,7 @@
             "produtos": [
               {
                 "id": 1,
-                "nome": "Camiseta Azul",
+                "nome": "Blusa Branca",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -14,13 +14,13 @@
                     "cor": "Branco",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_branca1.jpg", "caminho_da_foto_branca2.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/blusa-branca-01.PNG", "/imagem/produtos/feminino/blusa-branca-02.PNG", "/imagem/produtos/feminino/blusa-branca-03.PNG"]
                   }
                 ]
               },
               {
                 "id": 2,
-                "nome": "Camiseta Básica Preta",
+                "nome": "Calca preta legging",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -28,7 +28,7 @@
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_preto1.jpg", "caminho_da_foto_preto2.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/calca-preta-legging-01.PNG", "/imagem/produtos/feminino/calca-preta-legging-02.PNG"]
                   }
                 ]
               },
@@ -42,13 +42,13 @@
                     "cor": "Rosa",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_rosa1.jpg", "caminho_da_foto_rosa2.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/camiseta-beleza-feminina-01.PNG", "/imagem/produtos/feminino/camiseta-beleza-feminina-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Camiseta Estampada Vermelha",
+                "nome": "Camiseta Estampada Verde",
                 "descricao": "Uma camiseta estampada vermelha cheia de estilo",
                 "preco": 50.65,
                 "variacoes": [
@@ -56,7 +56,7 @@
                     "cor": "Vermelho",
                     "tamanhos": ["Médio", "Grande"],
                     "tipo": "Poliéster",
-                    "fotos": ["caminho_da_foto_vermelha1.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/camiseta-estampada-verde-01.PNG", "/imagem/produtos/feminino/camiseta-estampada-verde-02.PNG"]
                   }
                 ]
               },
@@ -70,13 +70,13 @@
                     "cor": "Verde",
                     "tamanhos": ["Médio", "Grande"],
                     "tipo": "Poliéster",
-                    "fotos": ["caminho_da_foto_verde1.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/camiseta-estampada-vermelha-01.PNG", "/imagem/produtos/feminino/camiseta-estampada-vermelha-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 6,
-                "nome": "Vestido Preto",
+                "nome": "Camiseta Preta Confortável",
                 "descricao": "Um vestido preto elegante para ocasiões especiais",
                 "preco": 50.65,
                 "variacoes": [
@@ -84,41 +84,41 @@
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_vestido_preto1.jpg", "caminho_da_foto_vestido_preto2.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/camiseta-preta-confortavel-01.PNG", "/imagem/produtos/feminino/camiseta-preta-confortavel-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 7,
-                "nome": "Saia Jeans",
-                "descricao": "Uma saia jeans moderna para um visual casual",
+                "nome": "Camiseta rosa",
+                "descricao": "Uma camiseta rosa moderna para um visual casual",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "cor": "Azul",
                     "tamanhos": ["Médio", "Grande"],
-                    "tipo": "Jeans",
-                    "fotos": ["caminho_da_foto_saia_jeans1.jpg"]
+                    "tipo": "Algodão",
+                    "fotos": ["/imagem/produtos/feminino/camiseta-rosa-confortavel-01.PNG", "/imagem/produtos/feminino/camiseta-rosa-confortavel-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 8,
-                "nome": "Blusa Branca",
-                "descricao": "Uma blusa branca clássica para combinar com qualquer look",
+                "nome": "Saia Jeans",
+                "descricao": "Uma saia jeans clássica para combinar com qualquer look",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "cor": "Branco",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_blusa_branca1.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/saia-jeans-01.PNG", "/imagem/produtos/feminino/saia-jeans-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 9,
-                "nome": "Calça Legging Preta",
+                "nome": "Vestido Estampado",
                 "descricao": "Uma calça legging preta confortável para atividades físicas",
                 "preco": 50.65,
                 "variacoes": [
@@ -126,13 +126,13 @@
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Elastano",
-                    "fotos": ["caminho_da_foto_legging_preta1.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/vestido-estampada-01.PNG", "/imagem/produtos/feminino/vestido-estampada-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 10,
-                "nome": "Vestido Estampada Floral",
+                "nome": "Camiseta Beleza Feminina",
                 "descricao": "Uma blusa estampada com padrão floral para um toque de primavera",
                 "preco": 50.65,
                 "variacoes": [
@@ -140,7 +140,7 @@
                     "cor": "Floral",
                     "tamanhos": ["Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_blusa_floral1.jpg"]
+                    "fotos": ["/imagem/produtos/feminino/camiseta-beleza-feminina-01.PNG", "/imagem/produtos/feminino/camiseta-beleza-feminina-02.PNG"]
                   }
                 ]
               }
@@ -152,7 +152,7 @@
             "produtos": [
               {
                 "id": 1,
-                "nome": "Camiseta Masculina",
+                "nome": "Calca Cinza Masculina",
                 "descricao": "Uma camiseta masculina básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -160,19 +160,13 @@
                     "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_azul1.jpg", "caminho_da_foto_azul2.jpg"]
-                  },
-                  {
-                    "cor": "Preto",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_preto1.jpg", "caminho_da_foto_preto2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/calca-cinza-01.PNG", "/imagem/produtos/masculino/calca-cinza-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 2,
-                "nome": "Calça Masculina",
+                "nome": "Calça Jeans",
                 "descricao": "Outra camiseta masculina básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -180,19 +174,13 @@
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_branco1.jpg", "caminho_da_foto_branco2.jpg"]
-                  },
-                  {
-                    "cor": "Cinza",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_cinza1.jpg", "caminho_da_foto_cinza2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/calca-jeans-01.PNG", "/imagem/produtos/masculino/calca-jeans-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 3,
-                "nome": "Camiseta Masculina Estampada",
+                "nome": "Camiseta Masculina Algodao",
                 "descricao": "Mais uma camiseta masculina básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -200,27 +188,27 @@
                     "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_verde1.jpg", "caminho_da_foto_verde2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/camiseta-algodao-masculina-branca-01.PNG", "/imagem/produtos/masculino/camiseta-algodao-masculina-branca-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Conjunto de Bermudas",
-                "descricao": "Outra camiseta masculina básica",
+                "nome": "Camiseta Casual Masculina",
+                "descricao": "Outra camiseta masculina casual",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "cor": "Única",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_laranja1.jpg", "caminho_da_foto_laranja2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/camiseta-casual-masculina-azul-02.PNG", "/imagem/produtos/masculino/camiseta-casual-masculina-azul-o2.PNG"]
                   }
                 ]
               },
               {
                 "id": 5,
-                "nome": "Bermuda",
+                "nome": "Camiseta Estampada Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -228,12 +216,54 @@
                     "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_amarelo1.jpg", "caminho_da_foto_amarelo2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/camiseta-estampada-masculina-01.PNG", "/imagem/produtos/masculino/camiseta-estampada-masculina-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 6,
+                "nome": "Conjunto de Bermudas",
+                "descricao": "Bermudas basicas",
+                "preco": 80.55,
+                "variacoes": [
+                  {
+                    "cor": "Branca",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["/imagem/produtos/masculino/conjunto-de-bermudas.PNG"]
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "nome": "Jaqueta Masculina",
+                "descricao": "Outra camiseta masculina básica",
+                "preco": 40.54,
+                "variacoes": [
+                  {
+                    "cor": "Verde",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["/imagem/produtos/masculino/jaqueta-masculina-01.PNG", "/imagem/produtos/masculino/jaqueta-masculina-02.PNG","/imagem/produtos/masculino/jaqueta-masculina-03.PNG" ]
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "nome": "Macacao Verde",
+                "descricao": "Outra camiseta masculina básica",
+                "preco": 50.65,
+                "variacoes": [
+                  {
+                    "cor": "Azul",
+                    "tamanhos": ["Pequeno", "Médio", "Grande"],
+                    "tipo": "Algodão",
+                    "fotos": ["/imagem/produtos/masculino/macacao-verde-01.PNG", "/imagem/produtos/masculino/macacao-verde-01.PNG"]
+                  }
+                ]
+              },
+              {
+                "id": 9,
                 "nome": "Regata Masculina",
                 "descricao": "Outra camiseta masculina básica",
                 "preco": 50.65,
@@ -242,67 +272,19 @@
                     "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_marrom1.jpg", "caminho_da_foto_marrom2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/regata-masculina-branca-01.PNG", "/imagem/produtos/masculino/regata-masculina-branca-01.PNG"]
                   },
                   {
                     "cor": "Preta",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_rosa1.jpg", "caminho_da_foto_rosa2.jpg"]
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "nome": "Macacão Masculino",
-                "descricao": "Outra camiseta masculina básica",
-                "preco": 50.65,
-                "variacoes": [
-                  {
-                    "cor": "Verde",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_turquesa1.jpg", "caminho_da_foto_turquesa2.jpg"]
-                  }
-                ]
-              },
-              {
-                "id": 8,
-                "nome": "Camiseta Casual Masculina",
-                "descricao": "Outra camiseta masculina básica",
-                "preco": 50.65,
-                "variacoes": [
-                  {
-                    "cor": "Azul",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_dourado1.jpg", "caminho_da_foto_dourado2.jpg"]
-                  },
-                  {
-                    "cor": "Branca",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_cobre1.jpg", "caminho_da_foto_cobre2.jpg"]
-                  }
-                ]
-              },
-              {
-                "id": 9,
-                "nome": "Jaqueta Masculina",
-                "descricao": "Outra camiseta masculina básica",
-                "preco": 50.65,
-                "variacoes": [
-                  {
-                    "cor": "Bege",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_bege1.jpg", "caminho_da_foto_bege2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/regata-masculina-preta-01.PNG"]
                   }
                 ]
               },
               {
                 "id": 10,
-                "nome": "Camiseta Masculina 10",
+                "nome": "Camiseta Masculina 10 ",
                 "descricao": "Outra camiseta masculina básica",
                 "preco": 50.65,
                 "variacoes": [
@@ -310,13 +292,7 @@
                     "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_lilas1.jpg", "caminho_da_foto_lilas2.jpg"]
-                  },
-                  {
-                    "cor": "Branca",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_prateado1.jpg", "caminho_da_foto_prateado2.jpg"]
+                    "fotos": ["/imagem/produtos/masculino/camiseta-10.avif"]
                   }
                 ]
               }
@@ -337,7 +313,7 @@
                     "cor": "Rosa",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_rosa_infantil1.jpg", "caminho_da_foto_rosa_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/01-camisetainfantil01.PNG", "/imagem/produtos/criança/01-camisetainfantil02.PNG"]
                   }
                 ]
               },
@@ -351,13 +327,7 @@
                     "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_verde_infantil1.jpg", "caminho_da_foto_verde_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Amarelo",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_amarelo_infantil1.jpg", "caminho_da_foto_amarelo_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/calcainfantilfeminina01.PNG", "/imagem/produtos/criança/calcainfantilfeminina02.PNG"]
                   }
                 ]
               },
@@ -371,13 +341,7 @@
                     "cor": "Vermelho",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_vermelho_infantil1.jpg", "caminho_da_foto_vermelho_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Lilás",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_lilas_infantil1.jpg", "caminho_da_foto_lilas_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/camisetaladybug01.PNG", "/imagem/produtos/criança/camisetaladybug02.PNG"]
                   }
                 ]
               },
@@ -391,7 +355,7 @@
                     "cor": "Vermelho",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_azul_marinho_infantil1.jpg", "caminho_da_foto_azul_marinho_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/regatahomemaranha01.PNG", "/imagem/produtos/criança/regatahomemaranha02.PNG"]
                   }
                 ]
               },
@@ -405,13 +369,7 @@
                     "cor": "Verde Limão",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_verde_limao_infantil1.jpg", "caminho_da_foto_verde_limao_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Roxo",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_roxo_infantil1.jpg", "caminho_da_foto_roxo_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/calcainfantilfeminina01.PNG", "/imagem/produtos/criança/calcainfantilfeminina02.PNG", "/imagem/produtos/criança/calcainfantilfeminina03.PNG"]
                   }
                 ]
               },
@@ -425,13 +383,7 @@
                     "cor": "Amarelo Claro",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_amarelo_claro_infantil1.jpg", "caminho_da_foto_amarelo_claro_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Branco",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_branco_infantil1.jpg", "caminho_da_foto_branco_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/calcamoletominfantil01.PNG", "/imagem/produtos/criança/calcamoletominfantil02.PNG"]
                   }
                 ]
               },
@@ -445,13 +397,7 @@
                     "cor": "Laranja",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_laranja_infantil1.jpg", "caminho_da_foto_laranja_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Rosa Claro",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_rosa_claro_infantil1.jpg", "caminho_da_foto_rosa_claro_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/camisetapoloinfantil.PNG", "/imagem/produtos/criança/camisetapoloinfantil02.PNG"]
                   }
                 ]
               },
@@ -465,13 +411,7 @@
                     "cor": "Verde Água",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_verde_agua_infantil1.jpg", "caminho_da_foto_verde_agua_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Amarelo Ouro",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_amarelo_ouro_infantil1.jpg", "caminho_da_foto_amarelo_ouro_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/camisetatermica01.PNG", "/imagem/produtos/criança/camisetatermica02.PNG"]
                   }
                 ]
               },
@@ -485,13 +425,7 @@
                     "cor": "Roxo Claro",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_roxo_claro_infantil1.jpg", "caminho_da_foto_roxo_claro_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Turquesa",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_turquesa_infantil1.jpg", "caminho_da_foto_turquesa_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/camisetainfantillilostich.PNG", "/imagem/produtos/criança/camisetainfantillilostich02.PNG"]
                   }
                 ]
               },
@@ -505,13 +439,7 @@
                     "cor": "Lilás Claro",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_lilas_claro_infantil1.jpg", "caminho_da_foto_lilas_claro_infantil2.jpg"]
-                  },
-                  {
-                    "cor": "Azul Claro",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Algodão",
-                    "fotos": ["caminho_da_foto_azul_claro_infantil1.jpg", "caminho_da_foto_azul_claro_infantil2.jpg"]
+                    "fotos": ["/imagem/produtos/criança/vestidoinfatil01.PNG", "/imagem/produtos/criançavestidoinfatil02.PNG","/imagem/produtos/criançavestidoinfatil03.PNG" ]
                   }
                 ]
               }
@@ -532,7 +460,7 @@
                     "cor": "Verde",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_azul_shorts1.jpg", "caminho_da_foto_azul_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/short-praia-01.PNG", "/imagem/produtos/verão/short-praia-02.PNG"]
                   }
                 ]
               },
@@ -546,7 +474,7 @@
                     "cor": "Vermelho",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_vermelho_shorts1.jpg", "caminho_da_foto_vermelho_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/biquini-verao-vermelho-01.PNG", "/imagem/produtos/verão/biquini-verao-vermelho-02.PNG"]
                   }
                 ]
               },
@@ -560,27 +488,27 @@
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_rosa_shorts1.jpg", "caminho_da_foto_rosa_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/maio-estiloso-branco.PNG"]
                   },
                   {
                     "cor": "Branco",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_rosa_shorts1.jpg", "caminho_da_foto_rosa_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/maio-estiloso-preto.PNG"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Maiô Feminino Estampada",
-                "descricao": "Outros shorts de praia confortáveis",
+                "nome": "Maiô Feminino Moda Praia",
+                "descricao": "Outros maios de praia confortáveis",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "cor": "Cinza",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_roxo_shorts1.jpg", "caminho_da_foto_roxo_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/maios-moda-praia-01.PNG", "/imagem/produtos/verão/maios-moda-praia-02.PNG"]
                   }
                 ]
               },
@@ -591,36 +519,24 @@
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Azul Claro",
+                    "cor": "Azul Marinho",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_azul_claro_shorts1.jpg", "caminho_da_foto_azul_claro_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Cinza",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_cinza_shorts1.jpg", "caminho_da_foto_cinza_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/bermuda-praia-01-azul-marinho.PNG"]
                   }
                 ]
               },
               {
                 "id": 6,
                 "nome": "Saída de praia rendada",
-                "descricao": "Outros shorts de praia confortáveis",
+                "descricao": "Saidas de praia confortáveis",
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Amarelo Claro",
+                    "cor": "Laranja",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_amarelo_claro_shorts1.jpg", "caminho_da_foto_amarelo_claro_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Violeta",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_violeta_shorts1.jpg", "caminho_da_foto_violeta_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/saida-de-praia-feminina-laranja-01.PNG", "/imagem/produtos/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -631,16 +547,10 @@
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Turquesa",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_turquesa_shorts1.jpg", "caminho_da_foto_turquesa_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Vermelho Claro",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_vermelho_claro_shorts1.jpg", "caminho_da_foto_vermelho_claro_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/saida-praia-chique-branca-01.PNG", "/imagem/produtos/verão/saida-praia-chique-branca-02.PNG"]
                   }
                 ]
               },
@@ -651,42 +561,36 @@
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Rosa Claro",
+                    "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_rosa_claro_shorts1.jpg", "caminho_da_foto_rosa_claro_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/camisa-uv-azul.PNG"]
                   },
                   {
-                    "cor": "Amarelo Ouro",
+                    "cor": "Branca",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_amarelo_ouro_shorts1.jpg", "caminho_da_foto_amarelo_ouro_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/camisa-uv-branca.PNG"]
                   }
                 ]
               },
               {
                 "id": 9,
-                "nome": "Óculos de praia",
-                "descricao": "Outros shorts de praia confortáveis",
+                "nome": "Burkini Estiloso",
+                "descricao": "A mais alta tendencia de verao",
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Verde Água",
+                    "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_verde_agua_shorts1.jpg", "caminho_da_foto_verde_agua_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Laranja",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_laranja_shorts1.jpg", "caminho_da_foto_laranja_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/burkini-01.PNG", "/imagem/produtos/verão/burkini-02.PNG"]
                   }
                 ]
               },
               {
                 "id": 10,
-                "nome": "Burkini Estiloso",
+                "nome": "Short Praia Estiloso",
                 "descricao": "Outros shorts de praia confortáveis",
                 "preco": 50.65,
                 "variacoes": [
@@ -694,13 +598,7 @@
                     "cor": "Roxo Claro",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_roxo_claro_shorts1.jpg", "caminho_da_foto_roxo_claro_shorts2.jpg"]
-                  },
-                  {
-                    "cor": "Azul Marinho",
-                    "tamanhos": ["Pequeno", "Médio", "Grande"],
-                    "tipo": "Poliamida",
-                    "fotos": ["caminho_da_foto_azul_marinho_shorts1.jpg", "caminho_da_foto_azul_marinho_shorts2.jpg"]
+                    "fotos": ["/imagem/produtos/verão/short-praia-01.PNG", "/imagem/produtos/verão/short-praia-02.PNG"]
                   }
                 ]
               }
@@ -720,13 +618,13 @@
                     "cor": "Prata",
                     "tamanhos": ["Único"],
                     "material": "Prata",
-                    "fotos": ["caminho_da_foto_colar_prata1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Dourado",
                     "tamanhos": ["Único"],
                     "material": "Dourado",
-                    "fotos": ["caminho_da_foto_colar_dourado1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -740,13 +638,13 @@
                     "cor": "Prata",
                     "tamanhos": ["Único"],
                     "material": "Prata",
-                    "fotos": ["caminho_da_foto_brinco_prata1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Dourado",
                     "tamanhos": ["Único"],
                     "material": "Dourado",
-                    "fotos": ["caminho_da_foto_brinco_dourado1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -760,13 +658,13 @@
                     "cor": "Branco",
                     "tamanhos": ["Único"],
                     "material": "Pérolas",
-                    "fotos": ["caminho_da_foto_pulseira_perolas1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Rosa",
                     "tamanhos": ["Único"],
                     "material": "Pérolas",
-                    "fotos": ["caminho_da_foto_pulseira_perolas_rosa1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -780,13 +678,13 @@
                     "cor": "Branco",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Diamante",
-                    "fotos": ["caminho_da_foto_anel_diamante1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Diamante",
-                    "fotos": ["caminho_da_foto_anel_diamante_azul1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -800,13 +698,13 @@
                     "cor": "Preto",
                     "tamanhos": ["Único"],
                     "material": "Plástico",
-                    "fotos": ["caminho_da_foto_oculos_sol_preto1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Marrom",
                     "tamanhos": ["Único"],
                     "material": "Plástico",
-                    "fotos": ["caminho_da_foto_oculos_sol_marrom1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -820,13 +718,13 @@
                     "cor": "Prata",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Aço Inoxidável",
-                    "fotos": ["caminho_da_foto_relogio_prata1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Dourado",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Aço Inoxidável",
-                    "fotos": ["caminho_da_foto_relogio_dourado1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -840,13 +738,13 @@
                     "cor": "Marrom",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Couro",
-                    "fotos": ["caminho_da_foto_bolsa_marrom1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Couro",
-                    "fotos": ["caminho_da_foto_bolsa_preto1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -860,13 +758,13 @@
                     "cor": "Azul",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Seda",
-                    "fotos": ["caminho_da_foto_lenco_seda_azul1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Vermelho",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Seda",
-                    "fotos": ["caminho_da_foto_lenco_seda_vermelho1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -880,13 +778,13 @@
                     "cor": "Natural",
                     "tamanhos": ["Único"],
                     "material": "Palha",
-                    "fotos": ["caminho_da_foto_chapeu_palha1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Branco",
                     "tamanhos": ["Único"],
                     "material": "Palha",
-                    "fotos": ["caminho_da_foto_chapeu_palha_branco1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               },
@@ -900,13 +798,13 @@
                     "cor": "Marrom",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Couro",
-                    "fotos": ["caminho_da_foto_cinto_couros1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   },
                   {
                     "cor": "Preto",
                     "tamanhos": ["Pequeno", "Médio", "Grande"],
                     "material": "Couro",
-                    "fotos": ["caminho_da_foto_cinto_couros_preto1.jpg"]
+                    "fotos": ["/imagem/acessórios/verão/blusa-branca-01.PNG"]
                   }
                 ]
               }
@@ -925,111 +823,111 @@
                   {
                     "fragrancia": "Floral",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_floral1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfume01feminino.PNG", "/imagem/produtos/perfume/perfume02feminino.PNG"]
                   }
                 ]
               },
               {
                 "id": 2,
-                "nome": "Perfume Cítrico",
-                "descricao": "Um perfume cítrico refrescante",
-                "preco": 50.65,
+                "nome": "Perfume Branca de Neve",
+                "descricao": "Um perfume cítrico de maca refrescante",
+                "preco": 450.65,
                 "variacoes": [
                   {
                     "fragrancia": "Cítrico",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_citrico1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/blusa-branca-01.PNG"]
                   }
                 ]
               },
               {
                 "id": 3,
-                "nome": "Perfume Amadeirado",
+                "nome": "Perfume Dourado de Natal",
                 "descricao": "Um perfume amadeirado sofisticado",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Amadeirado",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_amadeirado1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumedourado.PNG"]
                   }
                 ]
               },
               {
                 "id": 4,
-                "nome": "Perfume Floral 2",
+                "nome": "Perfume Kiss de Amor",
                 "descricao": "Outro perfume floral suave",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Floral",
                     "volume": "100ml",
-                    "fotos": ["caminho_da_foto_perfume_floral2.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumekiss.PNG"]
                   }
                 ]
               },
               {
                 "id": 5,
-                "nome": "Perfume Oriental",
+                "nome": "Perfume Masculino Rabbane",
                 "descricao": "Um perfume oriental misterioso",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Oriental",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_oriental1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumemasculinorabbane.PNG"]
                   }
                 ]
               },
               {
                 "id": 6,
-                "nome": "Perfume Fresco",
+                "nome": "Perfume Grey",
                 "descricao": "Um perfume fresco e revigorante",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Fresco",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_fresco1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumemrgrey.PNG"]
                   }
                 ]
               },
               {
                 "id": 7,
-                "nome": "Perfume Amadeirado 2",
+                "nome": "Perfume Rosa Estelar",
                 "descricao": "Outro perfume amadeirado sofisticado",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Amadeirado",
                     "volume": "100ml",
-                    "fotos": ["caminho_da_foto_perfume_amadeirado2.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/blusa-branca-01.PNG"]
                   }
                 ]
               },
               {
                 "id": 8,
-                "nome": "Perfume Floral 3",
+                "nome": "Perfume Unicornio",
                 "descricao": "Mais um perfume floral suave",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Floral",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_floral3.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumeunicornio.PNG"]
                   }
                 ]
               },
               {
                 "id": 9,
-                "nome": "Perfume Frutado",
+                "nome": "Perfume Hello",
                 "descricao": "Um perfume frutado e doce",
                 "preco": 50.65,
                 "variacoes": [
                   {
                     "fragrancia": "Frutado",
                     "volume": "50ml",
-                    "fotos": ["caminho_da_foto_perfume_frutado1.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumehello.jpg"]
                   }
                 ]
               },
@@ -1042,7 +940,7 @@
                   {
                     "fragrancia": "Cítrico",
                     "volume": "100ml",
-                    "fotos": ["caminho_da_foto_perfume_citrico2.jpg"]
+                    "fotos": ["/imagem/produtos/perfume/perfumeduocolonia.jpg"]
                   }
                 ]
               }
@@ -1055,7 +953,7 @@
             "produtos": [
               {
                 "id": 1,
-                "nome": "Almofadas Decorativas Vermelhas",
+                "nome": "Almofadas Decorativas Vermelhas Natalinas",
                 "descricao": "Almofadas decorativas vermelhas para sua casa",
                 "preco": 50.65,
                 "variacoes": [
@@ -1063,7 +961,7 @@
                     "cor": "Vermelha",
                     "tamanho": "Grande",
                     "material": "Algodão",
-                    "fotos": ["caminho_da_foto_almofada_vermelha1.jpg", "caminho_da_foto_almofada_vermelha2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/almofa-vermelha-hoho-03.PNG", "/imagem/produtos/para-casa/almofada-vermelha-hoho-01.PNG", "/imagem/produtos/para-casa/almofada-vermelha-hoho-02.PNG"]
                   }
                 ]
               },
@@ -1077,7 +975,7 @@
                     "cor": "Azul",
                     "tamanho": "Grande",
                     "material": "Algodão",
-                    "fotos": ["caminho_da_foto_almofada_azul1.jpg", "caminho_da_foto_almofada_azul2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/almofada-floral-azul-tipo01.PNG", "/imagem/produtos/para-casa/almofada-floral-azul-tipo02.PNG"]
                   }
                 ]
               },
@@ -1091,7 +989,7 @@
                     "cor": "Branca",
                     "tamanho": "Grande",
                     "material": "Linho",
-                    "fotos": ["caminho_da_foto_cortina_branca1.jpg", "caminho_da_foto_cortina_branca2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/cortina-de-linho-branca-01.PNG", "/imagem/produtos/para-casa/cortina-de-linho-branca-02.PNG"]
                   }
                 ]
               },
@@ -1105,7 +1003,7 @@
                     "cor": "Bege",
                     "tamanho": "Grande",
                     "material": "Linho",
-                    "fotos": ["caminho_da_foto_cortina_bege1.jpg", "caminho_da_foto_cortina_bege2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/cortina-bege.PNG"]
                   }
                 ]
               },
@@ -1119,13 +1017,13 @@
                     "cor": "Cinza",
                     "tamanho": "Grande",
                     "material": "Pelúcia",
-                    "fotos": ["caminho_da_foto_tapete_cinza1.jpg", "caminho_da_foto_tapete_cinza2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/tapete-pelucia-cinza.PNG"]
                   },
                   {
                     "cor": "Preto",
                     "tamanho": "Grande",
                     "material": "Pelúcia",
-                    "fotos": ["caminho_da_foto_tapete_cinza1.jpg", "caminho_da_foto_tapete_cinza2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/tapete-pelucia-preto.PNG"]
                   }
 
                 ]
@@ -1137,10 +1035,10 @@
                 "preco": 50.65,
                 "variacoes": [
                   {
-                    "cor": "Multicolorido",
+                    "cor": "Bege",
                     "tamanho": "Grande",
                     "material": "Tecido",
-                    "fotos": ["caminho_da_foto_tapete_listrado1.jpg", "caminho_da_foto_tapete_listrado2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/urso-pelucia-bege.PNG"]
                   }
                 ]
               },
@@ -1154,7 +1052,7 @@
                     "cor": "Branca",
                     "tamanho": "Médio",
                     "material": "Metal",
-                    "fotos": ["caminho_da_foto_luminaria_prata1.jpg", "caminho_da_foto_luminaria_prata2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/luminaria-teto.PNG"]
                   }
                 ]
               },
@@ -1168,7 +1066,7 @@
                     "cor": "Marrom",
                     "tamanho": "Médio",
                     "material": "Madeira",
-                    "fotos": ["caminho_da_foto_mesa_centro_marrom1.jpg", "caminho_da_foto_mesa_centro_marrom2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/cetro.PNG"]
                   }
                 ]
               },
@@ -1182,7 +1080,7 @@
                     "cor": "Branca",
                     "tamanho": "Pequeno",
                     "material": "MDF",
-                    "fotos": ["caminho_da_foto_prateleira_branca1.jpg", "caminho_da_foto_prateleira_branca2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/prateleira.PNG"]
                   }
                 ]
               },
@@ -1196,7 +1094,7 @@
                     "cor": "Vários",
                     "tamanho": "Médio",
                     "material": "Canvas",
-                    "fotos": ["caminho_da_foto_quadros_varios1.jpg", "caminho_da_foto_quadros_varios2.jpg"]
+                    "fotos": ["/imagem/produtos/para-casa/quadro-decorativo-01.PNG", "/imagem/produtos/para-casa/quadro-decorativo-02.PNG"]
                   }
                 ]
               }

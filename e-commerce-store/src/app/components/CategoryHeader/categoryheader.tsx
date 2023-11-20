@@ -20,7 +20,6 @@ const categories = [
   'masculino', 
   'crianca',
   'verao',
-  'acessorios',
   'paracasa', 
   'perfume'
  

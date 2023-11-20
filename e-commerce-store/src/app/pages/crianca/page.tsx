@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React, { useState } from 'react';
 import CategoryHeader from '@/app/components/CategoryHeader/categoryheader';
@@ -6,6 +6,7 @@ import Header from '@/app/components/Header/header';
 import IconsHeader from '@/app/components/IconsHeader/iconsheader';
 import SearchBar from '@/app/components/SearchBar/searchbar';
 import CardProduct from '@/app/components/CardProduct/cardproduct';
+import { Typography } from '@mui/material';
 
 
 const Crianca = () => {
@@ -20,12 +21,12 @@ const Crianca = () => {
 
       <div>
 
-        
-      <Header />
 
-      <IconsHeader />
+        <Header />
 
-      <SearchBar />
+        <IconsHeader />
+
+        <SearchBar />
 
       </div>
 
@@ -33,12 +34,14 @@ const Crianca = () => {
 
       <CategoryHeader />
 
-      <CardProduct /> 
-
-
-     
-      <main>
       
+
+      <CardProduct id={3} />
+
+
+
+      <main>
+
       </main>
     </div>
   );

@@ -32,7 +32,7 @@ const Masculino = () => {
 
 
       <CategoryHeader />
-      <CardProduct /> 
+      <CardProduct id={2}/> 
 
 
      

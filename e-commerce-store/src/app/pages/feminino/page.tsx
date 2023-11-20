@@ -5,8 +5,9 @@ import CategoryHeader from '@/app/components/CategoryHeader/categoryheader';
 import Header from '@/app/components/Header/header';
 import IconsHeader from '@/app/components/IconsHeader/iconsheader';
 import SearchBar from '@/app/components/SearchBar/searchbar';
-import MeuJson from '../../../../public/data/produtos.json'
+import ProductData from '../../../../public/data/produtos.json'
 import CardProduct from '@/app/components/CardProduct/cardproduct';
+
 
 
 const Feminino = () => {
@@ -14,7 +15,8 @@ const Feminino = () => {
 
   const toggleSidebar = () => {
     console.log("thais")
-    console.log(MeuJson, "meu json aqui");
+    console.log("meu json aqui");
+    console.log(ProductData.categorias)
     setSidebarOpen(!isSidebarOpen);
   };
 
@@ -36,7 +38,7 @@ const Feminino = () => {
 
       <CategoryHeader />
 
-      <CardProduct /> 
+      <CardProduct id={1}/> 
 
      
       <main>

@@ -33,7 +33,7 @@ const ParaCasa = () => {
 
       <CategoryHeader />
 
-      <CardProduct /> 
+      <CardProduct id={7}/> 
 
 
      

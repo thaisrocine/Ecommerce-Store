@@ -43,7 +43,7 @@ function SearchBar() {
         <SearchContainer>
           <SearchOutlinedIcon />
           <Divider />
-          <InputBase sx={{ flex: 1 }} placeholder="Digite algo para procurar" />
+          <InputBase sx={{ flex: 1 }} placeholder="BUSQUE O QUE QUISER ACHAR..." />
         </SearchContainer>
         <IconContainer>
           <Image src="/icons/sacola-de-compras.png" alt="Meu ícone" width={20} height={30} />
