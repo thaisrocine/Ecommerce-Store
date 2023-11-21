@@ -21,7 +21,8 @@ const categories = [
   'crianca',
   'verao',
   'paracasa', 
-  'perfume'
+  'perfume',
+  'favoritos'
  
 ];
 
@@ -35,7 +36,7 @@ const CategorySpan = styled('span')({
 function CategoryHeader() {
   return (
     <HeaderCard>
-      <CardContent>
+      <CardContent style={{ marginRight: '650px'}}>
         {categories.map((category, index) => (
            <Link href={`http://localhost:3000/pages/${category}`} key={index}>
            <CategorySpan> {category.toUpperCase()} |</CategorySpan>
