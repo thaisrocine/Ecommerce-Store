@@ -16,15 +16,15 @@ const theme = createTheme({
     },
 });
 
-const corPersonalizada = '#686262';
+const corPersonalizada = '#958D8D';
 
 const DetailProduct = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '50px',  marginLeft: '550px' }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '50px', marginLeft: '550px' }}>
                 {/* Cards */}
                 <div style={{ marginRight: '20px' }}>
-                    <Card style={{ backgroundColor: '#f0f0f0', height: '432px', width: '500px', marginBottom: '20px' }}>
+                    <Card style={{ backgroundColor: '#f0f0f0', height: '600px', width: '500px', marginBottom: '20px' }}>
                         <CardContent>
                             <Typography variant="h5" component="div">
                                 Card Principal Maior
@@ -38,7 +38,7 @@ const DetailProduct = () => {
                     <Grid container justifyContent="center">
                         {[1, 2, 3, 4].map((index) => (
                             <Grid item key={index} style={{ marginRight: '10px', marginBottom: '10px' }}>
-                                <Card style={{ backgroundColor: '#f0f0f0', height: '120px', width: '115px'}}>
+                                <Card style={{ backgroundColor: '#f0f0f0', height: '120px', width: '115px' }}>
                                     <CardContent>
                                         <Typography variant="h6" component="div">
                                             Mini Card {index}
@@ -55,32 +55,32 @@ const DetailProduct = () => {
 
 
                 <div style={{ textAlign: 'left' }}>
-                    <Typography variant="h6" style={{ color: corPersonalizada, marginBottom: '10px' }}>
+                    <Typography variant="h6" style={{ color: corPersonalizada, marginBottom: '10px', borderBottom: '1px solid #ccc' }}>
                         VESTIDO FEMININO | Vestido Princesinha do Oeste | E-commerce Store
-
                     </Typography>
-                    <Typography variant="h5" style={{ color: corPersonalizada, marginBottom: '10px' }}>
+
+                    <Typography variant="h5" style={{ color: corPersonalizada, marginBottom: '20px' }}>
                         R$ 200,00
                     </Typography>
-                    <Typography style={{ color: corPersonalizada, marginBottom: '5px' }}>
+                    <Typography style={{ color: corPersonalizada, marginBottom: '15px' }}>
                         Cores
                     </Typography>
 
-                    <div style={{marginBottom: '5px'}}>
-                    <ColorBalls />
+                    <div style={{ marginBottom: '10px' }}>
+                        <ColorBalls />
 
                     </div>
 
-         
-                    <Typography style={{ color: corPersonalizada, marginBottom: '5px' }}>
+
+                    <Typography style={{ color: corPersonalizada, marginBottom: '10px' }}>
                         Tamanho
                     </Typography>
 
-                    <div style={{marginBottom: '5px'}}> 
-                    <SizeProduct />
+                    <div style={{ marginBottom: '10px' }}>
+                        <SizeProduct />
                     </div>
 
-                 
+
 
 
 
@@ -92,7 +92,7 @@ const DetailProduct = () => {
                         Adicionar ao Carrinho
                     </Button>
 
-                
+
 
 
 
