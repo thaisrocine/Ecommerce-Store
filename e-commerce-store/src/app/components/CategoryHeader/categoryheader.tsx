@@ -36,7 +36,7 @@ const CategorySpan = styled('span')({
 function CategoryHeader() {
   return (
     <HeaderCard>
-      <CardContent style={{ marginRight: '650px'}}>
+      <CardContent >
         {categories.map((category, index) => (
            <Link href={`http://localhost:3000/pages/${category}`} key={index}>
            <CategorySpan> {category.toUpperCase()} |</CategorySpan>
