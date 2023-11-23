@@ -1,9 +1,12 @@
-import React from 'react';
+// components/SearchBar.js
+import React, { useState } from 'react';
 import Card from '@mui/material/Card';
 import Image from 'next/image';
 import { styled } from '@mui/material/styles';
-import { InputBase } from '@mui/material';
+import { InputBase, Button } from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import ProductModalCart from '../ProductModalCart/productmodalcart';
+
 
 const CardContainer = styled(Card)({
   display: 'flex',
@@ -18,7 +21,7 @@ const CardContainer = styled(Card)({
 const IconContainer = styled('div')({
   display: 'flex',
   gap: '10px',
-  margin: '10px'
+  margin: '10px',
 });
 
 const SearchContainer = styled('div')({
@@ -37,6 +40,16 @@ const Divider = styled('div')({
 });
 
 function SearchBar() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <div>
       <CardContainer>
@@ -46,11 +59,20 @@ function SearchBar() {
           <InputBase sx={{ flex: 1 }} placeholder="BUSQUE O QUE QUISER ACHAR..." />
         </SearchContainer>
         <IconContainer>
-          <Image src="/icons/sacola-de-compras.png" alt="Meu ícone" width={20} height={30} />
+          <Button variant="text" onClick={handleOpenModal}>
+            <Image src="/icons/carrinho.png" alt="Meu ícone" width={20} height={30} />
+          </Button>
+          <Button variant="text">
           <Image src="/icons/pessoa.png" alt="Meu ícone" width={20} height={30} />
+          </Button>
+         
+          <Button variant="text">
           <Image src="/icons/coracao.png" alt="Meu ícone" width={20} height={30} />
+          </Button>
         </IconContainer>
       </CardContainer>
+      {/* Adicione o modal */}
+      <ProductModalCart isOpen={modalIsOpen} onClose={handleCloseModal} onAddToCart={(quantity) => console.log(`Adicionando ${quantity} produtos ao carrinho`)} />
     </div>
   );
 }
