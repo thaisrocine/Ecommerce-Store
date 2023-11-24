@@ -8,6 +8,7 @@ import SearchBar from '@/app/components/SearchBar/searchbar';
 import DetailProduct from '@/app/components/DetailProduct/detailproduct';
 
 
+
 const Produtos = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 

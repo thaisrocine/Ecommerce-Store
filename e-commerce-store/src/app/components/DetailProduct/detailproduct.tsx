@@ -4,6 +4,7 @@ import { Button, Card, CardContent, Grid, TextField, Typography } from '@mui/mat
 import ColorBalls from '../ColorBalls/colorballs';
 import SizeProduct from '../SizeProducts/sizeproducts';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { useRouter } from 'next/router'; 
 
 const theme = createTheme({
     palette: {
@@ -19,10 +20,14 @@ const theme = createTheme({
 const corPersonalizada = '#958D8D';
 
 const DetailProduct = () => {
+
+
+
+
+
     return (
         <ThemeProvider theme={theme}>
             <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '50px', marginLeft: '550px' }}>
-                {/* Cards */}
                 <div style={{ marginRight: '20px' }}>
                     <Card style={{ backgroundColor: '#f0f0f0', height: '600px', width: '500px', marginBottom: '20px' }}>
                         <CardContent>
