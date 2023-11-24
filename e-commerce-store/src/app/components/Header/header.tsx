@@ -23,7 +23,7 @@ const Header = () => {
         <ThemeProvider theme={theme}>
 
             <Alert severity="info" style={{ marginBottom: 0, backgroundColor: '#D6CBC6' }}>
-                CURTA NOSSAS PROMOÇÕES IMPERDÍVEIS
+                CURTA NOSSAS PROMOÇÕES IMPERDÍVEIS!!!!! BAIXE AGORA NOSSO APP E FIQUE LIGADO EM TUDO!!
             </Alert>
 
             <AppBar position="static">
