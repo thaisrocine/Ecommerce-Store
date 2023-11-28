@@ -19,7 +19,11 @@ const theme = createTheme({
 
 const corPersonalizada = '#958D8D';
 
-const DetailProduct = () => {
+const DetailProduct = ({ id , categoryId}: { id: number, categoryId: number }) => {
+
+
+    console.log(id); 
+    console.log(categoryId);
 
 
 
