@@ -1,10 +1,11 @@
 import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Button, Card, CardContent, Grid, TextField, Typography } from '@mui/material';
+import { Button, Card, CardContent, CardMedia, Grid, TextField, Typography } from '@mui/material';
 import ColorBalls from '../ColorBalls/colorballs';
 import SizeProduct from '../SizeProducts/sizeproducts';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import { useRouter } from 'next/router'; 
+import ProductData from '../../../../public/data/produtos.json';
+
 
 const theme = createTheme({
     palette: {
@@ -19,11 +20,33 @@ const theme = createTheme({
 
 const corPersonalizada = '#958D8D';
 
-const DetailProduct = ({ id , categoryId}: { id: number, categoryId: number }) => {
+const DetailProduct = ({ id, categoryId }: { id: number, categoryId: number }) => {
 
 
-    console.log(id); 
+    console.log(id);
     console.log(categoryId);
+
+
+
+
+    const produtosFiltrados = ProductData.categorias;
+    const categoriaFilter = produtosFiltrados.find((categoria) => categoria.id === categoryId);
+    const produtosDaCategoria = categoriaFilter?.produtos || [];
+    const produtoFiltrado = produtosDaCategoria.find((produto) => produto.id === id);
+    const fotosDoEcommerce = produtoFiltrado?.variacoes[0]?.fotos || [];
+
+    console.log(produtoFiltrado?.variacoes?.fotos)
+
+    console.log(fotosDoEcommerce)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34,16 +57,14 @@ const DetailProduct = ({ id , categoryId}: { id: number, categoryId: number }) =
             <div style={{ display: 'flex', alignItems: 'flex-start', marginTop: '50px', marginLeft: '550px' }}>
                 <div style={{ marginRight: '20px' }}>
                     <Card style={{ backgroundColor: '#f0f0f0', height: '600px', width: '500px', marginBottom: '20px' }}>
-                        <CardContent>
-                            <Typography variant="h5" component="div">
-                                Card Principal Maior
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                Conteúdo do card principal aqui.
-                            </Typography>
-                        </CardContent>
+                        <CardMedia
+                            component="img"
+                            alt="Imagem"
+                            height="140"
+                            image={fotosDoEcommerce[0]} 
+                        />
+                   
                     </Card>
-
                     <Grid container justifyContent="center">
                         {[1, 2, 3, 4].map((index) => (
                             <Grid item key={index} style={{ marginRight: '10px', marginBottom: '10px' }}>
@@ -65,11 +86,11 @@ const DetailProduct = ({ id , categoryId}: { id: number, categoryId: number }) =
 
                 <div style={{ textAlign: 'left' }}>
                     <Typography variant="h6" style={{ color: corPersonalizada, marginBottom: '10px', borderBottom: '1px solid #ccc' }}>
-                        VESTIDO FEMININO | Vestido Princesinha do Oeste | E-commerce Store
+                        SEÇÃO {categoriaFilter?.nome} | {produtoFiltrado?.nome}| E-commerce Store
                     </Typography>
 
                     <Typography variant="h5" style={{ color: corPersonalizada, marginBottom: '20px' }}>
-                        R$ 200,00
+                        R$ {produtoFiltrado?.preco}
                     </Typography>
                     <Typography style={{ color: corPersonalizada, marginBottom: '15px' }}>
                         Cores
@@ -88,9 +109,6 @@ const DetailProduct = ({ id , categoryId}: { id: number, categoryId: number }) =
                     <div style={{ marginBottom: '10px' }}>
                         <SizeProduct />
                     </div>
-
-
-
 
 
                     <Button
