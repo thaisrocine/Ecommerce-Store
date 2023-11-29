@@ -20,6 +20,15 @@ const Produtos = () => {
   const categoryId = parseInt(segments[3], 10) || undefined;
   const prodId = parseInt(segments[4], 10) || undefined;
 
+  const [selectedProduct, setSelectedProduct] = useState({
+    categoryId: null,
+    productId: null,
+  });
+
+  const handleProductSelect = (categoryId, productId) => {
+    setSelectedProduct({ categoryId, productId });
+  };
+
 
 
 
@@ -51,7 +60,7 @@ const Produtos = () => {
 
 
       <CategoryHeader />
-      <DetailProduct id={prodId} categoryId={categoryId} />
+      <DetailProduct id={prodId} categoryId={categoryId}   onProductSelect={handleProductSelect}/>
 
 
 

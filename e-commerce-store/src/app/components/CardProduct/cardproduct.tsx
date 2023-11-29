@@ -10,6 +10,7 @@ import Link from 'next/link';
 
 
 
+
 const theme = createTheme();
 
 const produtos = [
@@ -111,6 +112,8 @@ const CardProduct = ({ id }: { id: number }) => {
   console.log(categoriaFilter?.id);
 
 
+
+
   return (
     <ThemeProvider theme={theme}>
       <div style={centerStyle}>
@@ -145,9 +148,6 @@ const CardProduct = ({ id }: { id: number }) => {
                     </Typography>
                     <Typography variant="body2" color="black">
                       {produto.nome}
-                    </Typography>
-                    <Typography variant="body2" color="black">
-                      {produto.id}
                     </Typography>
                     {hoveredProduct === produto.id && (
                       <IconButton

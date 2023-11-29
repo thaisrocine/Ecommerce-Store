@@ -11,6 +11,7 @@ import { Typography } from '@mui/material';
 import CustomTypography from './components/CustomTypography/customtypography';
 import Card from 'material-ui/Card';
 import MeuJson from '../../public/data/produtos.json';
+import { CartProvider } from './contexts/CartSelector';
 
 
 const HomePage = () => {
@@ -50,8 +51,9 @@ const HomePage = () => {
  
 
 
-      <CardProduct /> 
+      <CardProduct id={0} /> 
 
+ 
 
       <main>
       
