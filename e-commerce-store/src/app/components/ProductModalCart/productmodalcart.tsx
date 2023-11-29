@@ -15,6 +15,18 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
 
     console.log(selectedProduct, "estamos com problemas")
 
+
+    const [quantidade, setQuantidade] = useState(1);
+
+    const handleIncrement = () => {
+        setQuantidade(quantidade + 1);
+    };
+
+    const handleDecrement = () => {
+        setQuantidade(quantidade > 0 ? quantidade - 1 : 0);
+    };
+
+
     const corPersonalizada = '#958D8D';
 
     return (
@@ -54,14 +66,17 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
                             <Typography variant="body2" color="text.primary">
                                 {selectedProduct.nome}
                             </Typography>
-                            <TextField
-                                label="Quantidade"
-                                type="number"
-                                InputProps={{ inputProps: { min: 1 } }}
-                                value={quantity}
-                                onChange={(e) => setQuantity(Number(e.target.value))}
-                                sx={{ marginTop: '10px', width: '60px' }}
-                            />
+                           
+                            <Typography variant="h6" style={{ color: '#1976D2' }}>
+                               {quantidade}
+                            </Typography>
+                            <Button size="small" color="primary" onClick={handleIncrement}>
+                                +
+                            </Button>
+                            <Button size="small" color="primary" onClick={handleDecrement}>
+                                -
+                            </Button>
+
                         </CardContent>
                     </Card>
                 )}
