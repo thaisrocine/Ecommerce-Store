@@ -8,6 +8,7 @@
                 "id": 1,
                 "nome": "Blusa Branca",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -22,6 +23,7 @@
                 "id": 2,
                 "nome": "Calca preta legging",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -36,6 +38,7 @@
                 "id": 3,
                 "nome": "Camiseta Básica Rosa",
                 "descricao": "Uma camiseta básica para dias que você deseja estar básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -50,6 +53,7 @@
                 "id": 4,
                 "nome": "Camiseta Estampada Verde",
                 "descricao": "Uma camiseta estampada vermelha cheia de estilo",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -64,6 +68,7 @@
                 "id": 5,
                 "nome": "Camiseta Estampada Verde",
                 "descricao": "Uma camiseta estampada verde cheia de estilo",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -78,6 +83,7 @@
                 "id": 6,
                 "nome": "Camiseta Preta Confortável",
                 "descricao": "Um vestido preto elegante para ocasiões especiais",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -92,6 +98,7 @@
                 "id": 7,
                 "nome": "Camiseta rosa",
                 "descricao": "Uma camiseta rosa moderna para um visual casual",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -106,6 +113,7 @@
                 "id": 8,
                 "nome": "Saia Jeans",
                 "descricao": "Uma saia jeans clássica para combinar com qualquer look",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -120,6 +128,7 @@
                 "id": 9,
                 "nome": "Vestido Estampado",
                 "descricao": "Uma calça legging preta confortável para atividades físicas",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -134,6 +143,7 @@
                 "id": 10,
                 "nome": "Camiseta Beleza Feminina",
                 "descricao": "Uma blusa estampada com padrão floral para um toque de primavera",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -154,6 +164,7 @@
                 "id": 1,
                 "nome": "Calca Cinza Masculina",
                 "descricao": "Uma camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -168,6 +179,7 @@
                 "id": 2,
                 "nome": "Calça Jeans",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -182,6 +194,7 @@
                 "id": 3,
                 "nome": "Camiseta Masculina Algodao",
                 "descricao": "Mais uma camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -196,6 +209,7 @@
                 "id": 4,
                 "nome": "Camiseta Casual Masculina",
                 "descricao": "Outra camiseta masculina casual",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -210,6 +224,7 @@
                 "id": 5,
                 "nome": "Camiseta Estampada Masculina",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -224,6 +239,7 @@
                 "id": 6,
                 "nome": "Conjunto de Bermudas",
                 "descricao": "Bermudas basicas",
+                "quantidade": 0,
                 "preco": 80.55,
                 "variacoes": [
                   {
@@ -238,6 +254,7 @@
                 "id": 7,
                 "nome": "Jaqueta Masculina",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 40.54,
                 "variacoes": [
                   {
@@ -252,6 +269,7 @@
                 "id": 8,
                 "nome": "Macacao Verde",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -266,6 +284,7 @@
                 "id": 9,
                 "nome": "Regata Masculina",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -286,6 +305,7 @@
                 "id": 10,
                 "nome": "Camiseta Masculina 10 ",
                 "descricao": "Outra camiseta masculina básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -307,6 +327,7 @@
                 "id": 1,
                 "nome": "Camiseta Infantil",
                 "descricao": "Uma camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -321,6 +342,7 @@
                 "id": 2,
                 "nome": "Vestido Infantil",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -335,6 +357,7 @@
                 "id": 3,
                 "nome": "Camiseta LadyBug",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -349,6 +372,7 @@
                 "id": 4,
                 "nome": "Regata Homem Aranha Infantil",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -363,6 +387,7 @@
                 "id": 5,
                 "nome": "Calça Infantil Feminina",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -377,6 +402,7 @@
                 "id": 6,
                 "nome": "Calça moletom masculina",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -391,6 +417,7 @@
                 "id": 7,
                 "nome": "Camiseta Infantil Polo",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -405,6 +432,7 @@
                 "id": 8,
                 "nome": "Camiseta Termica",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -419,6 +447,7 @@
                 "id": 9,
                 "nome": "Camiseta Infantil Lilo",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -433,6 +462,7 @@
                 "id": 10,
                 "nome": "Vestido de festa criança",
                 "descricao": "Outra camiseta infantil básica",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -454,6 +484,7 @@
                 "id": 1,
                 "nome": "Shorts de Praia",
                 "descricao": "Shorts confortáveis para o verão",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -468,6 +499,7 @@
                 "id": 2,
                 "nome": "Bíquini de Praia",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -482,6 +514,7 @@
                 "id": 3,
                 "nome": "Maiô Estiloso",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -502,6 +535,7 @@
                 "id": 4,
                 "nome": "Maiô Feminino Moda Praia",
                 "descricao": "Outros maios de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -516,6 +550,7 @@
                 "id": 5,
                 "nome": "Bermuda de praia | Estiloso para ocasiões especiais",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -530,6 +565,7 @@
                 "id": 6,
                 "nome": "Saída de praia rendada",
                 "descricao": "Saidas de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -544,6 +580,7 @@
                 "id": 7,
                 "nome": "Saída de praia chique",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -558,6 +595,7 @@
                 "id": 8,
                 "nome": "Camiseta UV - Proteção para o verão",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -578,6 +616,7 @@
                 "id": 9,
                 "nome": "Burkini Estiloso",
                 "descricao": "A mais alta tendencia de verao",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -592,6 +631,7 @@
                 "id": 10,
                 "nome": "Short Praia Estiloso",
                 "descricao": "Outros shorts de praia confortáveis",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -612,6 +652,7 @@
                 "id": 1,
                 "nome": "Colar de Prata",
                 "descricao": "Um colar elegante de prata",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -632,6 +673,7 @@
                 "id": 2,
                 "nome": "Brinco de Gala",
                 "descricao": "Um brinco elegante de prata",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -652,6 +694,7 @@
                 "id": 3,
                 "nome": "Pulseira de Pérolas",
                 "descricao": "Uma pulseira elegante de pérolas",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -672,6 +715,7 @@
                 "id": 4,
                 "nome": "Anel de Diamante",
                 "descricao": "Um anel elegante de diamante",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -692,6 +736,7 @@
                 "id": 5,
                 "nome": "Óculos de Sol",
                 "descricao": "Óculos de sol elegantes para o verão",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -712,6 +757,7 @@
                 "id": 6,
                 "nome": "Relógio de Pulso",
                 "descricao": "Um relógio elegante para uso diário",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -732,6 +778,7 @@
                 "id": 7,
                 "nome": "Bolsa de Couro",
                 "descricao": "Uma bolsa elegante de couro",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -752,6 +799,7 @@
                 "id": 8,
                 "nome": "Lenço de Seda",
                 "descricao": "Um lenço de seda elegante para diversas ocasiões",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -772,6 +820,7 @@
                 "id": 9,
                 "nome": "Chapéu de Palha",
                 "descricao": "Um chapéu de palha elegante para o verão",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -792,6 +841,7 @@
                 "id": 10,
                 "nome": "Cinto de Couro",
                 "descricao": "Um cinto elegante de couro para combinar com seu estilo",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -818,6 +868,7 @@
                 "id": 1,
                 "nome": "Perfume Floral",
                 "descricao": "Um perfume floral suave",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -831,6 +882,7 @@
                 "id": 2,
                 "nome": "Perfume Branca de Neve",
                 "descricao": "Um perfume cítrico de maca refrescante",
+                "quantidade": 0,
                 "preco": 450.65,
                 "variacoes": [
                   {
@@ -844,6 +896,7 @@
                 "id": 3,
                 "nome": "Perfume Dourado de Natal",
                 "descricao": "Um perfume amadeirado sofisticado",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -857,6 +910,7 @@
                 "id": 4,
                 "nome": "Perfume Kiss de Amor",
                 "descricao": "Outro perfume floral suave",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -870,6 +924,7 @@
                 "id": 5,
                 "nome": "Perfume Masculino Rabbane",
                 "descricao": "Um perfume oriental misterioso",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -883,6 +938,7 @@
                 "id": 6,
                 "nome": "Perfume Grey",
                 "descricao": "Um perfume fresco e revigorante",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -896,6 +952,7 @@
                 "id": 7,
                 "nome": "Perfume Rosa Estelar",
                 "descricao": "Outro perfume amadeirado sofisticado",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -909,6 +966,7 @@
                 "id": 8,
                 "nome": "Perfume Unicornio",
                 "descricao": "Mais um perfume floral suave",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -922,6 +980,7 @@
                 "id": 9,
                 "nome": "Perfume Hello",
                 "descricao": "Um perfume frutado e doce",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -935,6 +994,7 @@
                 "id": 10,
                 "nome": "Perfume Cítrico 2",
                 "descricao": "Outro perfume cítrico refrescante",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -955,6 +1015,7 @@
                 "id": 1,
                 "nome": "Almofadas Decorativas Vermelhas Natalinas",
                 "descricao": "Almofadas decorativas vermelhas para sua casa",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -969,6 +1030,7 @@
                 "id": 2,
                 "nome": "Kit de 4 Almofadas Decorativas Azuis",
                 "descricao": "Almofadas decorativas azuis para sua casa",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -983,6 +1045,7 @@
                 "id": 3,
                 "nome": "Cortinas de Linho Brancas",
                 "descricao": "Cortinas elegantes de linho branco para sua sala",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -997,6 +1060,7 @@
                 "id": 4,
                 "nome": "Cortinas de Linho Bege",
                 "descricao": "Cortinas elegantes de linho bege para sua sala",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1011,6 +1075,7 @@
                 "id": 5,
                 "nome": "Tapete de Pelúcia Cinza",
                 "descricao": "Um tapete de pelúcia cinza para o conforto da sua casa",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1032,6 +1097,7 @@
                 "id": 6,
                 "nome": "Urso de pelúcia",
                 "descricao": "Urso de pelúcia para casa",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1046,6 +1112,7 @@
                 "id": 7,
                 "nome": "Luminária de Teto Moderna",
                 "descricao": "Uma luminária de teto moderna para iluminar seus espaços",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1060,6 +1127,7 @@
                 "id": 8,
                 "nome": "Mesa de Centro de Madeira",
                 "descricao": "Uma mesa de centro de madeira para sua sala de estar",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1074,6 +1142,7 @@
                 "id": 9,
                 "nome": "Prateleira de Parede",
                 "descricao": "Uma prateleira de parede para organizar seus objetos",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
@@ -1088,6 +1157,7 @@
                 "id": 10,
                 "nome": "Quadros Decorativos",
                 "descricao": "Quadros decorativos para personalizar suas paredes",
+                "quantidade": 0,
                 "preco": 50.65,
                 "variacoes": [
                   {
