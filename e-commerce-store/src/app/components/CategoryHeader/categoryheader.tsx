@@ -22,8 +22,7 @@ const categories = [
   'verao',
   'paracasa', 
   'perfume',
-  'favoritos'
- 
+
 ];
 
 const CategorySpan = styled('span')({

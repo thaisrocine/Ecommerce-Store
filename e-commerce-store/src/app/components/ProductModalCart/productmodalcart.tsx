@@ -26,6 +26,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         onAddToCart(quantity);
         addToCart(displayedProduct);
         onClose();
+        window.location.reload();
     };
 
 
@@ -33,7 +34,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         const productInCart = cart.find((product) => product.id === selectedProduct.id);
 
         if (productInCart) {
-            // Product already in the cart, you may want to handle this case
+
             console.log('Product already in the cart');
         } else {
             const updatedCart = [...cart, selectedProduct];
@@ -63,7 +64,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         setCart(storedCart);
     }, [selectedProduct]);
 
-  
+
 
     console.log(selectedProduct?.variacoes[0]?.fotos, "sla");
 
@@ -127,40 +128,45 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                 </Typography>
                 <Divider style={{ margin: '10px' }} />
 
-                {cart.map((product) => (
-                    <Card key={product.id} sx={{ maxWidth: 100, marginBottom: '10px' }}>
-                        <CardMedia
-                            component="img"
-                            alt={product.nome}
-                            height="140"
-                            image={selectedProduct?.variacoes[0]?.fotos}
-                        />
-                        <CardContent>
-                            <Typography variant="body2" color="text.primary">
-                                {product?.nome}
-                            </Typography>
+                {cart.length === 0 ? (
+                    <Typography variant="body2" color="text.primary">
+                        Não há produtos no momento.
+                    </Typography>
+                ) : (
+                    cart.map((product) => (
+                        <Card key={product.id} sx={{ maxWidth: 100, marginBottom: '10px' }}>
+                            <CardMedia
+                                component="img"
+                                alt={product.nome}
+                                height="140"
+                                image={product?.variacoes[0]?.fotos[0]}
+                            />
+                            <CardContent>
+                                <Typography variant="body2" color="text.primary">
+                                    {product?.nome}
+                                </Typography>
 
-                            <Typography variant="h6" style={{ color: '#1976D2' }}>
-                                {product?.quantidade}
-                            </Typography>
-                            <Button
-                                size="small"
-                                color="error"
-                                onClick={() => removeFromCart(product.id)}
-                            >
-                                Remover do Carrinho
-                            </Button>
-                        </CardContent>
-                    </Card>
-                ))}
-
+                                <Typography variant="h6" style={{ color: '#1976D2' }}>
+                                    {product?.quantidade}
+                                </Typography>
+                                <Button
+                                    size="small"
+                                    color="error"
+                                    onClick={() => removeFromCart(product.id)}
+                                >
+                                    Remover do Carrinho
+                                </Button>
+                            </CardContent>
+                        </Card>
+                    ))
+                )}
                 {displayedProduct && (
                     <Card sx={{ maxWidth: 100, marginBottom: '10px' }}>
                         <CardMedia
                             component="img"
-                            alt={displayedProduct.nome}
+                            alt={selectedProduct?.nome}
                             height="140"
-                            image={displayedProduct?.fotos?.[0]}
+                            image={selectedProduct?.variacoes[0]?.fotos[0]}
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.primary">
@@ -191,7 +197,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                     Fechar
                 </Button>
 
-         
+
             </div>
         </Modal>
     );
