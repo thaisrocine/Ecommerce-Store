@@ -48,6 +48,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         const updatedCart = cart.filter((product) => product.id !== productId);
         setCart(updatedCart);
         updateCartInLocalStorage(updatedCart);
+        window.location.reload();
     };
 
     useEffect(() => {

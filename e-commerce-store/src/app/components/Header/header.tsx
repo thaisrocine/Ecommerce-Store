@@ -4,9 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Alert from '@mui/material/Alert';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Link } from 'react-router-dom';
 
-// Crie um tema personalizado para o cabeçalho
 const theme = createTheme({
     palette: {
         primary: {
@@ -34,7 +32,7 @@ const Header = () => {
                         </a>
                     </Typography>
                     <nav>
-                        {/* Adicione seus itens de navegação aqui */}
+                     
                     </nav>
                 </Toolbar>
             </AppBar>

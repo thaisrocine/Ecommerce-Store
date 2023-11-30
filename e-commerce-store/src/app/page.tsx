@@ -1,17 +1,13 @@
 "use client"; 
 
 import React, { useState } from 'react';
-import Sidebar from './components/SiderBar/sidebar';
 import Header from './components/Header/header';
 import IconsHeader from './components/IconsHeader/iconsheader';
 import SearchBar from './components/SearchBar/searchbar';
 import CategoryHeader from './components/CategoryHeader/categoryheader';
 import CardProduct from './components/CardProduct/cardproduct';
-import { Typography } from '@mui/material';
 import CustomTypography from './components/CustomTypography/customtypography';
-import Card from 'material-ui/Card';
 import MeuJson from '../../public/data/produtos.json';
-import { CartProvider } from './contexts/CartSelector';
 
 
 const HomePage = () => {
@@ -47,13 +43,7 @@ const HomePage = () => {
 
 
 
-
- 
-
-
       <CardProduct id={0} /> 
-
- 
 
       <main>
       
@@ -61,6 +51,5 @@ const HomePage = () => {
     </div>
   );
 };
-
 
 export default HomePage;

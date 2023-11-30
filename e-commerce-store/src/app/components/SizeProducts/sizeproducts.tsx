@@ -1,4 +1,4 @@
-// SizesComponent.js
+
 import React, { useState } from 'react';
 
 const SizeProduct = () => {
