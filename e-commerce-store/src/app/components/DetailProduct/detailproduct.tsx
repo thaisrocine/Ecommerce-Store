@@ -29,6 +29,7 @@ const DetailProduct = ({ id, categoryId, onProductSelect }: { id: number, catego
 
     const [selectedImage, setSelectedImage] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [cartProduct, setCartProduct] = useState([]);
 
     const handleImageClick = (index: number) => {
         setSelectedImage(index);
@@ -121,6 +122,7 @@ const DetailProduct = ({ id, categoryId, onProductSelect }: { id: number, catego
                             setIsModalOpen(false);
                         }}
                         selectedProduct={produtoFiltrado}
+                        cart={cartProduct}
                     />
                 </div>
             </div>

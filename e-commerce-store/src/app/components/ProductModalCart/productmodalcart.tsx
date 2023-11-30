@@ -1,38 +1,51 @@
 import React, { useState, useEffect } from 'react';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import { Typography, Divider, Card, CardContent, CardMedia } from '@mui/material';
+import { Typography, Divider, Card, CardContent, CardMedia, Alert } from '@mui/material';
 
-const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => {
-    const [quantity, setQuantity] = useState(1);
+const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartProduct }) => {
+    const [quantity, setQuantity] = useState(0);
     const [displayedProduct, setDisplayedProduct] = useState(selectedProduct);
+    const [cart, setCart] = useState([]);
+    const [alertOpen, setAlertOpen] = useState(false);
 
     const getCartFromLocalStorage = () => {
-        const cart = localStorage.getItem('cart');
-        return cart ? JSON.parse(cart) : [];
+        const storedCart = localStorage.getItem('cart');
+        return storedCart ? JSON.parse(storedCart) : [];
     };
 
-    const updateCartInLocalStorage = (cart) => {
-        localStorage.setItem('cart', JSON.stringify(cart));
+    const updateCartInLocalStorage = (newCart) => {
+        localStorage.setItem('cart', JSON.stringify(newCart));
     };
 
-    const addToCart = (product) => {
-        const cart = getCartFromLocalStorage();
-        const existingProductIndex = cart.findIndex((p) => p.id === product.id);
-    
-        if (existingProductIndex !== -1) {
-           
-            cart[existingProductIndex].quantidade += product.quantidade;
+    useEffect(() => {
+        setCart(cart);
+    }, [cart]);
+
+    const handleAddToCart = () => {
+        onAddToCart(quantity);
+        addToCart(displayedProduct);
+        onClose();
+    };
+
+
+    const addToCart = (selectedProduct) => {
+        const productInCart = cart.find((product) => product.id === selectedProduct.id);
+
+        if (productInCart) {
+            // Product already in the cart, you may want to handle this case
+            console.log('Product already in the cart');
         } else {
-            
-            cart.push(product);
+            const updatedCart = [...cart, selectedProduct];
+            setCart(updatedCart);
+            updateCartInLocalStorage(updatedCart);
+            setAlertOpen(true);
         }
-    
-        updateCartInLocalStorage(cart);
     };
+
     const removeFromCart = (productId) => {
-        const cart = getCartFromLocalStorage();
         const updatedCart = cart.filter((product) => product.id !== productId);
+        setCart(updatedCart);
         updateCartInLocalStorage(updatedCart);
     };
 
@@ -45,15 +58,14 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
         } else {
             setDisplayedProduct(selectedProduct);
         }
+
+        const storedCart = getCartFromLocalStorage();
+        setCart(storedCart);
     }, [selectedProduct]);
 
-    const handleAddToCart = () => {
-        onAddToCart(quantity);
-        if (quantity >= 1) {
-            addToCart(displayedProduct);
-        }
-        onClose();
-    };
+  
+
+    console.log(selectedProduct?.variacoes[0]?.fotos, "sla");
 
     const handleIncrement = () => {
         setQuantity((prevQuantidade) => prevQuantidade + 1);
@@ -115,6 +127,33 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
                 </Typography>
                 <Divider style={{ margin: '10px' }} />
 
+                {cart.map((product) => (
+                    <Card key={product.id} sx={{ maxWidth: 100, marginBottom: '10px' }}>
+                        <CardMedia
+                            component="img"
+                            alt={product.nome}
+                            height="140"
+                            image={selectedProduct?.variacoes[0]?.fotos}
+                        />
+                        <CardContent>
+                            <Typography variant="body2" color="text.primary">
+                                {product?.nome}
+                            </Typography>
+
+                            <Typography variant="h6" style={{ color: '#1976D2' }}>
+                                {product?.quantidade}
+                            </Typography>
+                            <Button
+                                size="small"
+                                color="error"
+                                onClick={() => removeFromCart(product.id)}
+                            >
+                                Remover do Carrinho
+                            </Button>
+                        </CardContent>
+                    </Card>
+                ))}
+
                 {displayedProduct && (
                     <Card sx={{ maxWidth: 100, marginBottom: '10px' }}>
                         <CardMedia
@@ -145,12 +184,14 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
                 )}
 
                 <Button onClick={handleAddToCart} sx={{ mt: 2 }}>
-                    Finalizar o carrinho
+                    Adicionar ao carrinho
                 </Button>
 
                 <Button onClick={onClose} sx={{ mt: 2, ml: 2 }}>
                     Fechar
                 </Button>
+
+         
             </div>
         </Modal>
     );
