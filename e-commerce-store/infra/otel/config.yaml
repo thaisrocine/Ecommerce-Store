@@ -1,0 +1,73 @@
+receivers:
+  fluentforward:
+    endpoint: 0.0.0.0:8006
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317 #default
+      http:
+        endpoint: 0.0.0.0:4318 #default
+        cors:
+          allowed_origins:
+            - http://localhost:3012
+
+processors:
+  batch:
+    timeout: 1s
+    send_batch_size: 1024
+  resource:
+    attributes:
+      - action: insert
+        key: loki.format
+        value: raw
+
+extensions:
+  health_check:
+
+exporters:
+  prometheus:
+    endpoint: collector:6666
+    # namespace: default
+  otlp:
+    endpoint: tempo:4317
+    tls:
+      insecure: true
+  loki:
+    endpoint: "http://loki:3100/loki/api/v1/push"
+  logging:
+    verbosity: detailed
+
+service:
+  pipelines:
+    metrics:
+      receivers:
+        - otlp
+      processors:
+        - batch
+      exporters:
+        - prometheus
+        - logging
+    traces:
+      receivers:
+        - otlp
+      processors:
+        - batch
+      exporters:
+        - otlp
+        - logging
+    logs:
+      receivers:
+        - otlp
+        - fluentforward
+      processors:
+        # - attributes
+      exporters:
+        - loki
+        - logging
+  extensions: [health_check]
+
+  telemetry:
+    logs:
+      level: debug
+    metrics:
+      address: 0.0.0.0:8888
