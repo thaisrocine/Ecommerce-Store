@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import { Typography, Divider, Card, CardContent, CardMedia, Alert } from '@mui/material';
+import { Typography, Divider, Card, CardContent, CardMedia } from '@mui/material';
+import { startTracing, trace } from '../../../../infra/otel/otel-config';
 
 const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartProduct }) => {
     const [quantity, setQuantity] = useState(0);
     const [displayedProduct, setDisplayedProduct] = useState(selectedProduct);
     const [cart, setCart] = useState([]);
-    const [alertOpen, setAlertOpen] = useState(false);
+
+    startTracing(); 
 
     const getCartFromLocalStorage = () => {
         const storedCart = localStorage.getItem('cart');
@@ -29,12 +31,10 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         window.location.reload();
     };
 
-
     const addToCart = (selectedProduct) => {
         const productInCart = cart.find((product) => product.id === selectedProduct.id);
 
         if (productInCart) {
-
             console.log('Product already in the cart');
         } else {
             const updatedCart = [...cart, selectedProduct];
@@ -45,10 +45,13 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
     };
 
     const removeFromCart = (productId) => {
-        const updatedCart = cart.filter((product) => product.id !== productId);
-        setCart(updatedCart);
-        updateCartInLocalStorage(updatedCart);
-        window.location.reload();
+        trace('remove_from_cart', () => {
+            const updatedCart = cart.filter((product) => product.id !== productId);
+            setCart(updatedCart);
+            updateCartInLocalStorage(updatedCart);
+            window.location.reload();
+            console.log(`Item removido do carrinho. Produto ID: ${productId}`);
+        });
     };
 
     useEffect(() => {
@@ -64,10 +67,6 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
         const storedCart = getCartFromLocalStorage();
         setCart(storedCart);
     }, [selectedProduct]);
-
-
-
-    console.log(selectedProduct?.variacoes[0]?.fotos, "sla");
 
     const handleIncrement = () => {
         setQuantity((prevQuantidade) => prevQuantidade + 1);
@@ -197,8 +196,6 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                 <Button onClick={onClose} sx={{ mt: 2, ml: 2 }}>
                     Fechar
                 </Button>
-
-
             </div>
         </Modal>
     );
