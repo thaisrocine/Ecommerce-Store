@@ -37,7 +37,7 @@ function CategoryHeader() {
     <HeaderCard>
       <CardContent >
         {categories.map((category, index) => (
-           <Link href={`http://localhost:3000/pages/${category}`} key={index}>
+           <Link href={`http://localhost:3001/pages/${category}`} key={index}>
            <CategorySpan> {category.toUpperCase()} |</CategorySpan>
          </Link>
 
