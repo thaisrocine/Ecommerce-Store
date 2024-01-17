@@ -1,9 +1,15 @@
 import { PrometheusExporter } from '@opentelemetry/exporter-prometheus';
 import { createServer } from 'http';
 
-console.log('OpenTelemetry config loaded');
-export const prometheusExporter = new PrometheusExporter({
-  endpoint: '/metrics', // Endpoint where Prometheus will fetch metrics
-  startServer: true, // Start a Prometheus server in the React client
-  server: createServer, // Use the correct createServer function
-});
+export const createPrometheusExporter = (categoryId, productId) => {
+  // explicar na daily que fiz um novo endpoint, pois o de antes estava bem esquisito 
+  const endpoint = `localhost:3001`;
+
+  const fullEndpoint = `http://${endpoint}`;
+
+  return new PrometheusExporter({
+    startServer: true,
+    endpoint: fullEndpoint,
+    server: createServer,
+  });
+};

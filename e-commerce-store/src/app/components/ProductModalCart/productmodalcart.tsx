@@ -16,6 +16,9 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
   const [alertOpen, setAlertOpen] = useState(false);
   let contador: number = 0;
 
+
+  console.log(selectedProduct);
+
   const tracerProvider = new WebTracerProvider();
   const meterProvider = new MeterProvider({
     exporter: prometheusExporter,
@@ -64,7 +67,7 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct }) => 
     if (productInCart) {
       console.log('Product already in the cart');
     } else {
-      addToCartCounter.add(1);
+
       const updatedCart = [...cart, selectedProduct];
       setCart(updatedCart);
       console.log(contador++);
