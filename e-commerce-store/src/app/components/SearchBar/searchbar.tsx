@@ -1,11 +1,7 @@
 import React from 'react';
 import Card from '@mui/material/Card';
-import TextField from '@mui/material/TextField';
-import InputAdornment from '@mui/material/InputAdornment';
-import SearchIcon from '@mui/icons-material/Search';
 import Image from 'next/image';
 import { styled } from '@mui/material/styles';
-import { IconButton } from 'material-ui';
 import { InputBase } from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
