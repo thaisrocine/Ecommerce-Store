@@ -11,7 +11,6 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
       - targets: [ 'collector:8888' ]
-  - job_name: 'next-js apliccation'
-    scrape_interval: 20s
+  - job_name: 'e-commerce-store-app'
     static_configs:
-      - targets: ['localhost:3001']
+      - targets: ['collector:3001/api']

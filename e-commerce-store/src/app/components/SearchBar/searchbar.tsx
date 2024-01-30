@@ -1,11 +1,10 @@
-// components/SearchBar.js
+"use client"
 import React, { useState, useEffect } from 'react';
 import Card from '@mui/material/Card';
 import Image from 'next/image';
 import { styled } from '@mui/material/styles';
 import { InputBase, Button } from '@mui/material';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import ProductModalCart from '../ProductModalCart/productmodalcart';
 
 const CardContainer = styled(Card)({
   display: 'flex',
@@ -21,7 +20,7 @@ const IconContainer = styled('div')({
   display: 'flex',
   gap: '10px',
   margin: '10px',
-  position: 'relative', // Adiciona posição relativa para o ícone de notificação
+  position: 'relative',
 });
 
 const NotificationDot = styled('div')({
@@ -49,36 +48,47 @@ const Divider = styled('div')({
   margin: '0 8px',
 });
 
-function SearchBar() {
+const SearchBar = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [newItemsInCart, setNewItemsInCart] = useState(false);
 
+
   const handleOpenModal = () => {
     setModalIsOpen(true);
-    // Ao abrir o modal, resete o estado de novos itens no carrinho e remova a notificação
-    setNewItemsInCart(false);
+    sendMetricsData();
   };
 
   const handleCloseModal = () => {
     setModalIsOpen(false);
   };
 
-  const checkForNewItems = () => {
-    // Verifica se há itens no carrinho no localStorage
-    const storedCart = localStorage.getItem('cart');
-    const cartItems = storedCart ? JSON.parse(storedCart) : [];
-    setNewItemsInCart(cartItems.length > 0);
+  const sendMetricsData = async () => {
+    try {
+      const response = await fetch('/api/metrics', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          metricName: 'modal_open_counter',
+          // Adicione outros dados que você deseja enviar para o Prometheus
+        }),
+      });
+
+      if (response.ok) {
+        console.log('Dados enviados com sucesso para o Prometheus.');
+      } else {
+        console.error('Erro ao enviar dados para o Prometheus:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Erro ao enviar dados para o Prometheus:', error);
+    }
   };
 
   useEffect(() => {
-    // Verifica inicialmente se há novos itens ao carregar o componente
-    checkForNewItems();
-
-    // Configura um intervalo para verificar periodicamente se há novos itens
-    const intervalId = setInterval(checkForNewItems, 5000); // Verifica a cada 5 segundos (ajuste conforme necessário)
-
-    // Limpa o intervalo ao desmontar o componente
-    return () => clearInterval(intervalId);
+    const storedCart = localStorage.getItem('cart');
+    const cartItems = storedCart ? JSON.parse(storedCart) : [];
+    setNewItemsInCart(cartItems.length > 0);
   }, [modalIsOpen]);
 
   return (
@@ -97,16 +107,13 @@ function SearchBar() {
           <Button variant="text">
             <Image src="/icons/pessoa.png" alt="Meu ícone" width={20} height={30} />
           </Button>
-
           <Button variant="text">
             <Image src="/icons/coracao.png" alt="Meu ícone" width={20} height={30} />
           </Button>
         </IconContainer>
       </CardContainer>
-      {/* Adicione o modal */}
-      <ProductModalCart isOpen={modalIsOpen} onClose={handleCloseModal} onAddToCart={(quantity) => console.log(`Adicionando ${quantity} produtos ao carrinho`)} />
     </div>
   );
-}
+};
 
 export default SearchBar;

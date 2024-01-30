@@ -9,7 +9,6 @@ import CardProduct from './components/CardProduct/cardproduct';
 import CustomTypography from './components/CustomTypography/customtypography';
 import MeuJson from '../../public/data/produtos.json';
 
-
 const HomePage = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -17,34 +16,20 @@ const HomePage = () => {
     setSidebarOpen(!isSidebarOpen);
   };
 
-  console.log(MeuJson);
+  console.log("apareça aquiii", MeuJson);
 
   return (
     <div>
-
       <div>
-
-        
-      <Header />
-
-      <IconsHeader />
-
-      <SearchBar />
-
+        <Header />
+        <IconsHeader />
+        <SearchBar />
       </div>
-
-
-
       <CategoryHeader />
-
       <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'center', marginTop: '2px'}}>
-      <CustomTypography>SE LIGA NOS QUERIDINHOS DO MOMENTO!!!!</CustomTypography>
-    </div>
-
-
-
+        <CustomTypography>SE LIGA NOS QUERIDINHOS DO MOMENTO!!!!</CustomTypography>
+      </div>
       <CardProduct id={0} /> 
-
       <main>
       
       </main>
