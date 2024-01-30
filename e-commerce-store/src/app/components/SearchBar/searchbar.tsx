@@ -1,4 +1,3 @@
-"use client"
 import React, { useState, useEffect } from 'react';
 import Card from '@mui/material/Card';
 import Image from 'next/image';
@@ -48,12 +47,14 @@ const Divider = styled('div')({
   margin: '0 8px',
 });
 
+// task: adicionar nova funcionalidade de instrumentação para enviar ao endpoint
 const SearchBar = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [newItemsInCart, setNewItemsInCart] = useState(false);
-
+  const [modalOpenCount, setModalOpenCount] = useState(0);
 
   const handleOpenModal = () => {
+    setModalOpenCount(count => count + 1);
     setModalIsOpen(true);
     sendMetricsData();
   };
@@ -71,9 +72,11 @@ const SearchBar = () => {
         },
         body: JSON.stringify({
           metricName: 'modal_open_counter',
-          // Adicione outros dados que você deseja enviar para o Prometheus
+          count: modalOpenCount 
         }),
       });
+
+
 
       if (response.ok) {
         console.log('Dados enviados com sucesso para o Prometheus.');
