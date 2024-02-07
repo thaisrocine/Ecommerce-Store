@@ -1,92 +1,83 @@
 import React, { useState, useEffect } from 'react';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
-import { Typography, Divider, Card, CardContent, CardMedia, Alert } from '@mui/material';
+import { Typography, Divider, Card, CardContent, CardMedia } from '@mui/material';
 
-const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartProduct }) => {
+interface Product {
+    id: number;
+    nome: string;
+    variacoes: {
+        fotos: string[];
+    }[];
+}
+
+interface ProductModalCartProps {
+    isOpen: boolean;
+    onClose: () => void;
+    onAddToCart: (quantity: number) => void;
+    selectedProduct?: Product;
+}
+
+const ProductModalCart: React.FC<ProductModalCartProps> = ({ isOpen, onClose, onAddToCart, selectedProduct }) => {
     const [quantity, setQuantity] = useState(0);
-    const [displayedProduct, setDisplayedProduct] = useState(selectedProduct);
-    const [cart, setCart] = useState([]);
+    const [cart, setCart] = useState<Product[]>([]);
+    const [displayedProduct, setDisplayedProduct] = useState<Product | null>(null);
     const [alertOpen, setAlertOpen] = useState(false);
 
-    const getCartFromLocalStorage = () => {
+    const getCartFromLocalStorage = (): Product[] => {
         const storedCart = localStorage.getItem('cart');
         return storedCart ? JSON.parse(storedCart) : [];
     };
 
-    const updateCartInLocalStorage = (newCart) => {
+    const updateCartInLocalStorage = (newCart: Product[]): void => {
         localStorage.setItem('cart', JSON.stringify(newCart));
     };
 
     useEffect(() => {
-        setCart(cart);
-    }, [cart]);
+        setCart(getCartFromLocalStorage());
+    }, []);
 
-    const handleAddToCart = () => {
+    const handleAddToCart = (): void => {
         onAddToCart(quantity);
-        addToCart(displayedProduct);
+        addToCart(displayedProduct!);
         onClose();
-        window.location.reload();
     };
 
-
-    const addToCart = (selectedProduct) => {
-        const productInCart = cart.find((product) => product.id === selectedProduct.id);
-
+    const addToCart = (product: Product): void => {
+        const productInCart = cart.find((item) => item.id === product.id);
         if (productInCart) {
-
             console.log('Product already in the cart');
         } else {
-            const updatedCart = [...cart, selectedProduct];
+            const updatedCart = [...cart, product];
             setCart(updatedCart);
             updateCartInLocalStorage(updatedCart);
             setAlertOpen(true);
         }
     };
 
-    const removeFromCart = (productId) => {
-        const updatedCart = cart.filter((product) => product.id !== productId);
+    const removeFromCart = (productId: number): void => {
+        const updatedCart = cart.filter((item) => item.id !== productId);
         setCart(updatedCart);
         updateCartInLocalStorage(updatedCart);
-        window.location.reload();
     };
 
     useEffect(() => {
-        const storedProduct = localStorage.getItem('selectedProduct');
-        if (storedProduct) {
-            const parsedProduct = JSON.parse(storedProduct);
-            setDisplayedProduct(parsedProduct);
-            setQuantity(parsedProduct?.quantidade || 1);
-        } else {
+        if (selectedProduct) {
             setDisplayedProduct(selectedProduct);
+            setQuantity(selectedProduct?.variacoes[0]?.fotos?.length || 1);
         }
-
-        const storedCart = getCartFromLocalStorage();
-        setCart(storedCart);
     }, [selectedProduct]);
 
-
-
-    console.log(selectedProduct?.variacoes[0]?.fotos, "sla");
-
-    const handleIncrement = () => {
-        setQuantity((prevQuantidade) => prevQuantidade + 1);
-        setDisplayedProduct((prevProduct) => ({
-            ...prevProduct,
-            quantidade: (prevProduct?.quantidade || 0) + 1,
-        }));
+    const handleIncrement = (): void => {
+        setQuantity((prevQuantity) => prevQuantity + 1);
     };
 
-    const handleDecrement = () => {
-        setQuantity((prevQuantidade) => (prevQuantidade > 1 ? prevQuantidade - 1 : 1));
-        setDisplayedProduct((prevProduct) => ({
-            ...prevProduct,
-            quantidade: prevProduct?.quantidade ? prevProduct.quantidade - 1 : 0,
-        }));
+    const handleDecrement = (): void => {
+        setQuantity((prevQuantity) => (prevQuantity > 1 ? prevQuantity - 1 : 1));
     };
 
-    const handleRemoveFromCart = () => {
-        removeFromCart(displayedProduct.id);
+    const handleRemoveFromCart = (): void => {
+        removeFromCart(displayedProduct!.id);
         onClose();
     };
 
@@ -108,10 +99,10 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                     width: 500,
                     backgroundColor: 'rgba(255, 255, 255, 1)',
                     border: '2px solid #000',
-                    boxShadow: 24,
+               
                     justifyContent: 'center',
                     alignItems: 'center',
-                    p: 4,
+                  
                 }}
             >
                 <Typography
@@ -140,40 +131,35 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                                 component="img"
                                 alt={product.nome}
                                 height="140"
-                                image={product?.variacoes[0]?.fotos[0]}
+                                image={product.variacoes[0].fotos[0]}
                             />
                             <CardContent>
                                 <Typography variant="body2" color="text.primary">
-                                    {product?.nome}
+                                    {product.nome}
                                 </Typography>
-
                                 <Typography variant="h6" style={{ color: '#1976D2' }}>
-                                    {product?.quantidade}
+                                    {quantity}
                                 </Typography>
-                                <Button
-                                    size="small"
-                                    color="error"
-                                    onClick={() => removeFromCart(product.id)}
-                                >
+                                <Button size="small" color="error" onClick={() => removeFromCart(product.id)}>
                                     Remover do Carrinho
                                 </Button>
                             </CardContent>
                         </Card>
                     ))
                 )}
+
                 {displayedProduct && (
                     <Card sx={{ maxWidth: 100, marginBottom: '10px' }}>
                         <CardMedia
                             component="img"
-                            alt={selectedProduct?.nome}
+                            alt={displayedProduct.nome}
                             height="140"
-                            image={selectedProduct?.variacoes[0]?.fotos[0]}
+                            image={displayedProduct.variacoes[0].fotos[0]}
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.primary">
-                                {displayedProduct?.nome}
+                                {displayedProduct.nome}
                             </Typography>
-
                             <Typography variant="h6" style={{ color: '#1976D2' }}>
                                 {quantity}
                             </Typography>
@@ -197,8 +183,6 @@ const ProductModalCart = ({ isOpen, onClose, onAddToCart, selectedProduct, cartP
                 <Button onClick={onClose} sx={{ mt: 2, ml: 2 }}>
                     Fechar
                 </Button>
-
-
             </div>
         </Modal>
     );

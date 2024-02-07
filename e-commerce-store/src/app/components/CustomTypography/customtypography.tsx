@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 
-const CustomTypography = ({ children}) => {
+const CustomTypography = ({ children }: { children: React.ReactNode }) => {
   const customTypographyStyle = {
     display: 'flex',
 

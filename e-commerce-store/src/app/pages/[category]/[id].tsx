@@ -3,15 +3,15 @@ import React from 'react';
 
 
 
-const ProductDetails = ({ productId }) => {
+const ProductDetails = ({ }) => {
   return (
     <div>
-      <h1>Hello, World! Produto ID: {productId}</h1>
+      <h1>Hello, World! Produto ID: </h1>
     </div>
   );
 };
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps(context: { params: any; }) {
   const { params } = context;
   const { id } = params;
 

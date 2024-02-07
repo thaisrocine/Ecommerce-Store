@@ -104,7 +104,7 @@ function SearchBar() {
         </IconContainer>
       </CardContainer>
       {/* Adicione o modal */}
-      <ProductModalCart isOpen={modalIsOpen} onClose={handleCloseModal} onAddToCart={(quantity) => console.log(`Adicionando ${quantity} produtos ao carrinho`)} />
+      <ProductModalCart isOpen={modalIsOpen} onClose={handleCloseModal} onAddToCart={(quantity: number) => console.log(`Adicionando ${quantity} produtos ao carrinho`)} />
     </div>
   );
 }

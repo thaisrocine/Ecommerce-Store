@@ -33,7 +33,7 @@ const AcessoriosERelogios = () => {
 
       <CategoryHeader />
 
-      <CardProduct /> 
+      <CardProduct id={3}/> 
 
 
      

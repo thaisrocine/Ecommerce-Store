@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { Button, Card, CardContent, CardMedia, Grid, Typography } from '@mui/material';
+import { Button, Card, CardMedia, Grid, Typography } from '@mui/material';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import ProductData from '../../../../public/data/produtos.json';
 import SizeProduct from '../SizeProducts/sizeproducts';
@@ -29,7 +29,8 @@ const DetailProduct = ({ id, categoryId, onProductSelect }: { id: number, catego
 
     const [selectedImage, setSelectedImage] = useState(0);
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [cartProduct, setCartProduct] = useState([]);
+
+
 
     const handleImageClick = (index: number) => {
         setSelectedImage(index);
@@ -122,7 +123,7 @@ const DetailProduct = ({ id, categoryId, onProductSelect }: { id: number, catego
                             setIsModalOpen(false);
                         }}
                         selectedProduct={produtoFiltrado}
-                        cart={cartProduct}
+                      
                     />
                 </div>
             </div>

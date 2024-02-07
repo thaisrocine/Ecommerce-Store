@@ -8,36 +8,31 @@ import SearchBar from '@/app/components/SearchBar/searchbar';
 import DetailProduct from '@/app/components/DetailProduct/detailproduct';
 import { usePathname } from 'next/dist/client/components/navigation';
 
-
 const Produtos = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
-
   const pathName = usePathname();
+  const segments = pathName ? pathName.split('/') : [];
 
-  const segments = pathName?.split('/');
-  console.log(segments);
+  const [categoryId, setCategoryId] = useState<number | undefined>(undefined);
+  const [prodId, setProdId] = useState<number | undefined>(undefined);
 
-  const categoryId = parseInt(segments[3], 10) || undefined;
-  const prodId = parseInt(segments[4], 10) || undefined;
-
-  const [selectedProduct, setSelectedProduct] = useState({
+  const [selectedProduct, setSelectedProduct] = useState<{ categoryId: number | null, productId: number | null }>({
     categoryId: null,
     productId: null,
   });
 
-  const handleProductSelect = (categoryId, productId) => {
+
+  const handleProductSelect = (categoryId: number, productId: number) => {
     setSelectedProduct({ categoryId, productId });
   };
 
+  useEffect(() => {
+    const parsedCategoryId = parseInt(segments[3], 10);
+    const parsedProdId = parseInt(segments[4], 10);
 
-
-
-
-
-
-
-
-
+    setCategoryId(isNaN(parsedCategoryId) ? undefined : parsedCategoryId);
+    setProdId(isNaN(parsedProdId) ? undefined : parsedProdId);
+  }, [segments]);
 
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
@@ -45,32 +40,23 @@ const Produtos = () => {
 
   return (
     <div>
-
       <div>
-
-
         <Header />
-
         <IconsHeader />
-
         <SearchBar />
-
       </div>
 
-
-
       <CategoryHeader />
-      <DetailProduct id={prodId} categoryId={categoryId}   onProductSelect={handleProductSelect}/>
+      <DetailProduct
+        id={prodId || 0}
+        categoryId={categoryId || 0} // Providing a default value (0 in this case) when categoryId is undefined
+        onProductSelect={handleProductSelect}
+      />
 
 
-
-      <main>
-
-      </main>
+      <main></main>
     </div>
   );
 };
-
-
 
 export default Produtos;

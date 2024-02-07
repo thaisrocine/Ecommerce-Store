@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const ColorBalls = () => {
   const [selectedColor, setSelectedColor] = useState(null);
 
-  const handleClick = (color) => {
+  const handleClick = (color: any) => {
     setSelectedColor(color === selectedColor ? null : color);
   };
 

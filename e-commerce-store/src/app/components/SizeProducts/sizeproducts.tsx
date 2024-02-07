@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const SizeProduct = () => {
   const [selectedSize, setSelectedSize] = useState(null);
 
-  const handleSizeClick = (size) => {
+  const handleSizeClick = (size: any) => {
     setSelectedSize(size === selectedSize ? null : size);
   };
 
