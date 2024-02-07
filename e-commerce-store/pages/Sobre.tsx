@@ -1,6 +1,7 @@
 // pages/sobre.tsx
 import React from 'react';
 
+console.log("super poderes")
 const Sobre: React.FC = () => {
   return (
     <div>
